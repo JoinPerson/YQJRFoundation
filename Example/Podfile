@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YQJRFoundation_Example' do
+  pod 'YQJRFoundation', :path => '../'
+
+  target 'YQJRFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
