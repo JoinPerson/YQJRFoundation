@@ -1,0 +1,6 @@
+framework module YQJRFoundation {
+  umbrella header "YQJRFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
