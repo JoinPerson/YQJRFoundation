@@ -16,8 +16,10 @@
 @implementation YQJRViewController
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    YQJRNetworkReachabilityStatus status = [YQJRNetworkInformationHelper networkReachabilityStatus];
-    NSLog(@"%@",@(status));
+//    YQJRNetworkReachabilityStatus status = [YQJRNetworkInformationHelper networkReachabilityStatus];
+//    NSLog(@"%@",@(status));
+    
+    NSLog(@"%@", @([YQJRNetworkInformationHelper isUsingProxyPort]));
 }
 
 @end

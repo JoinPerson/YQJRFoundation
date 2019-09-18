@@ -23,4 +23,11 @@ typedef NS_ENUM(NSInteger, YQJRNetworkReachabilityStatus) {
  */
 + (YQJRNetworkReachabilityStatus)networkReachabilityStatus;
 
+/**
+ 是否使用代理
+ 
+ @return 返回值
+ */
++ (BOOL)isUsingProxyPort;
+
 @end

@@ -20,10 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		64016185DE9E07C35D2D22C2 /* Pods_YQJRFoundation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01ADE1EFA6F014D26F488796 /* Pods_YQJRFoundation_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9D847E5DEAA5CC94427B8326 /* Pods_YQJRFoundation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BE201F9F4345D7B587E134 /* Pods_YQJRFoundation_Tests.framework */; };
+		B5D911FEEEDDDED4D24BE9EB /* libPods-YQJRFoundation_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C03875C758FF1F87A9BFB793 /* libPods-YQJRFoundation_Tests.a */; };
+		EC562A8CA5B36E68B2BC7628 /* libPods-YQJRFoundation_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59F6C455644892EA72829A8 /* libPods-YQJRFoundation_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01ADE1EFA6F014D26F488796 /* Pods_YQJRFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQJRFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F2D13118F1CC784F3E5739 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1DD64BEA930005E4444CC5F2 /* Pods-YQJRFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQJRFoundation_Example.release.xcconfig"; path = "Target Support Files/Pods-YQJRFoundation_Example/Pods-YQJRFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		222EEE43AF4B7F58585C39B8 /* Pods-YQJRFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQJRFoundation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YQJRFoundation_Tests/Pods-YQJRFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,10 +62,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		78BE201F9F4345D7B587E134 /* Pods_YQJRFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQJRFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6AC1F3CFD257C4C4A20B125 /* YQJRFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YQJRFoundation.podspec; path = ../YQJRFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B54D2B729889B64834F07EA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C03875C758FF1F87A9BFB793 /* libPods-YQJRFoundation_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQJRFoundation_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59F6C455644892EA72829A8 /* libPods-YQJRFoundation_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQJRFoundation_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				64016185DE9E07C35D2D22C2 /* Pods_YQJRFoundation_Example.framework in Frameworks */,
+				EC562A8CA5B36E68B2BC7628 /* libPods-YQJRFoundation_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9D847E5DEAA5CC94427B8326 /* Pods_YQJRFoundation_Tests.framework in Frameworks */,
+				B5D911FEEEDDDED4D24BE9EB /* libPods-YQJRFoundation_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				01ADE1EFA6F014D26F488796 /* Pods_YQJRFoundation_Example.framework */,
-				78BE201F9F4345D7B587E134 /* Pods_YQJRFoundation_Tests.framework */,
+				C59F6C455644892EA72829A8 /* libPods-YQJRFoundation_Example.a */,
+				C03875C758FF1F87A9BFB793 /* libPods-YQJRFoundation_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				DA955581FB5A2F984F7577C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -339,24 +338,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DA955581FB5A2F984F7577C2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YQJRFoundation_Example/Pods-YQJRFoundation_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YQJRFoundation/YQJRFoundation.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YQJRFoundation.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YQJRFoundation_Example/Pods-YQJRFoundation_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

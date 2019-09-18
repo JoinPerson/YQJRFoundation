@@ -35,6 +35,13 @@
     return status;
 }
 
++ (BOOL)isUsingProxyPort {
+    CFDictionaryRef dicRef = CFNetworkCopySystemProxySettings();
+    const CFStringRef proxyCFstr = CFDictionaryGetValue(dicRef, (const void *)kCFNetworkProxiesHTTPProxy);
+    NSString *proxy = (__bridge NSString *)proxyCFstr;
+    return proxy.length > 0;
+}
+
 #pragma mark - Private Method
 
 + (YQJRNetworkReachabilityStatus)networkReachabilityStatusForFlags:(SCNetworkReachabilityFlags)flags {
