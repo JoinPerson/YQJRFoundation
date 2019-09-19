@@ -51,4 +51,6 @@ typedef NS_ENUM(NSInteger, YQJRNetworkReachabilityStatus) {
  */
 + (NSString *)getIMSI;
 
++ (NSString *)getWifiName;
+
 @end

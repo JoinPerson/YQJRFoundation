@@ -11,6 +11,7 @@
 #import <SystemConfiguration/SystemConfiguration.h>
 #import <CoreTelephony/CTTelephonyNetworkInfo.h>
 #import <CoreTelephony/CTCarrier.h>
+#import <SystemConfiguration/CaptiveNetwork.h>
 
 @implementation YQJRNetworkInformationHelper
 
@@ -61,6 +62,25 @@
 + (NSString *)getIMSI {
     NSString *imsi = [NSString stringWithFormat:@"%@%@", [self mobileCountryCode], [self mobileNetworkCode]];
     return imsi;
+}
+
++ (NSString *)getWifiName {
+    NSString *wifiName = @"";
+    CFArrayRef wifiInterfaces = CNCopySupportedInterfaces();
+    if (!wifiInterfaces) {
+        return @"";
+    }
+    NSArray *interfaces = (__bridge NSArray *)wifiInterfaces;
+    for (NSString *interfaceName in interfaces) {
+        CFDictionaryRef dictRef = CNCopyCurrentNetworkInfo((__bridge CFStringRef)(interfaceName));
+        if (dictRef) {
+            NSDictionary *networkInfo = (__bridge NSDictionary *)dictRef;
+            wifiName = [networkInfo objectForKey:(__bridge NSString *)kCNNetworkInfoKeySSID];
+            CFRelease(dictRef);
+        }
+    }
+    CFRelease(wifiInterfaces);
+    return wifiName;
 }
 
 #pragma mark - Private Method
