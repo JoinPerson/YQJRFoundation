@@ -8,6 +8,7 @@
 
 #import "YQJRViewController.h"
 #import <YQJRFoundation/YQJRNetworkInformationHelper.h>
+#import <YQJRFoundation/YQJRLocationInformationHelper.h>
 
 @interface YQJRViewController ()
 
@@ -19,7 +20,10 @@
 //    YQJRNetworkReachabilityStatus status = [YQJRNetworkInformationHelper networkReachabilityStatus];
 //    NSLog(@"%@",@(status));
     
-    NSLog(@"%@", @([YQJRNetworkInformationHelper isUsingProxyPort]));
+//    NSLog(@"%@", @([YQJRNetworkInformationHelper isUsingProxyPort]));
+    
+    CLLocation *location = [YQJRLocationInformationHelper sharedManager].getLocation;
+    NSLog(@"%f,%f",location.coordinate.latitude,location.coordinate.longitude);
 }
 
 @end

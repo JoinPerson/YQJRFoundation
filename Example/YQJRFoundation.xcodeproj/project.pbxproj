@@ -247,7 +247,7 @@
 				ORGANIZATIONNAME = wangzhen;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 55WR6UYY5G;
+						DevelopmentTeam = T22EH955M2;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -505,7 +505,7 @@
 			baseConfigurationReference = 5AEA323A6AD57E22B9D7F49D /* Pods-YQJRFoundation_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 55WR6UYY5G;
+				DEVELOPMENT_TEAM = T22EH955M2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YQJRFoundation/YQJRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "YQJRFoundation/YQJRFoundation-Info.plist";
@@ -522,7 +522,7 @@
 			baseConfigurationReference = 1DD64BEA930005E4444CC5F2 /* Pods-YQJRFoundation_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 55WR6UYY5G;
+				DEVELOPMENT_TEAM = T22EH955M2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YQJRFoundation/YQJRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "YQJRFoundation/YQJRFoundation-Info.plist";
