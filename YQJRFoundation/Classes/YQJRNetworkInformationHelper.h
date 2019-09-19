@@ -30,4 +30,25 @@ typedef NS_ENUM(NSInteger, YQJRNetworkReachabilityStatus) {
  */
 + (BOOL)isUsingProxyPort;
 
+/**
+ 移动国家代码
+
+ @return 返回结果
+ */
++ (NSString *)mobileCountryCode;
+
+/**
+ 移动网络代码
+
+ @return 返回结果
+ */
++ (NSString *)mobileNetworkCode;
+
+/**
+ 国际移动用户识别码
+
+ @return 返回结果
+ */
++ (NSString *)getIMSI;
+
 @end

@@ -9,6 +9,8 @@
 #import <netinet/in.h>
 #import <netinet6/in6.h>
 #import <SystemConfiguration/SystemConfiguration.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import <CoreTelephony/CTCarrier.h>
 
 @implementation YQJRNetworkInformationHelper
 
@@ -40,6 +42,25 @@
     const CFStringRef proxyCFstr = CFDictionaryGetValue(dicRef, (const void *)kCFNetworkProxiesHTTPProxy);
     NSString *proxy = (__bridge NSString *)proxyCFstr;
     return proxy.length > 0;
+}
+
++ (NSString *)mobileCountryCode {
+    CTTelephonyNetworkInfo *info = [[CTTelephonyNetworkInfo alloc] init];
+    CTCarrier *carrier = [info subscriberCellularProvider];
+    NSString *mcc = [carrier mobileCountryCode];
+    return mcc != nil ? mcc : @"";
+}
+
++ (NSString *)mobileNetworkCode {
+    CTTelephonyNetworkInfo *info = [[CTTelephonyNetworkInfo alloc] init];
+    CTCarrier *carrier = [info subscriberCellularProvider];
+    NSString *mnc = [carrier mobileNetworkCode];
+    return mnc != nil ? mnc : @"";
+}
+
++ (NSString *)getIMSI {
+    NSString *imsi = [NSString stringWithFormat:@"%@%@", [self mobileCountryCode], [self mobileNetworkCode]];
+    return imsi;
 }
 
 #pragma mark - Private Method
