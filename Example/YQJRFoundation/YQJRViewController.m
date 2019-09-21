@@ -22,8 +22,8 @@
     
 //    NSLog(@"%@", @([YQJRNetworkInformationHelper isUsingProxyPort]));
     
-    CLLocation *location = [YQJRLocationInformationHelper sharedManager].getLocation;
-    NSLog(@"%f,%f",location.coordinate.latitude,location.coordinate.longitude);
+//    CLLocation *location = [YQJRLocationInformationHelper sharedManager].getLocation;
+//    NSLog(@"%f,%f",location.coordinate.latitude,location.coordinate.longitude);
 }
 
 @end
