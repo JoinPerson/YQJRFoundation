@@ -38,6 +38,36 @@
     return status;
 }
 
++ (NSString *)networkSignalType {
+    NSString *networkSignalTypeStr = @"";
+    YQJRNetworkReachabilityStatus status = [self networkReachabilityStatus];
+    if (status == YQJRNetworkReachabilityStatusReachableViaWiFi) {
+        networkSignalTypeStr = @"WiFi";
+    } else if (status == YQJRNetworkReachabilityStatusReachableViaWWAN) {
+        NSArray *typeStrings2G = @[CTRadioAccessTechnologyEdge,
+                                   CTRadioAccessTechnologyGPRS,
+                                   CTRadioAccessTechnologyCDMA1x];
+        NSArray *typeStrings3G = @[CTRadioAccessTechnologyHSDPA,
+                                   CTRadioAccessTechnologyWCDMA,
+                                   CTRadioAccessTechnologyHSUPA,
+                                   CTRadioAccessTechnologyCDMAEVDORev0,
+                                   CTRadioAccessTechnologyCDMAEVDORevA,
+                                   CTRadioAccessTechnologyCDMAEVDORevB,
+                                   CTRadioAccessTechnologyeHRPD];
+        NSArray *typeStrings4G = @[CTRadioAccessTechnologyLTE];
+        CTTelephonyNetworkInfo *teleInfo= [[CTTelephonyNetworkInfo alloc] init];
+        NSString *accessString = teleInfo.currentRadioAccessTechnology;
+        if ([typeStrings2G containsObject:accessString]) {
+            networkSignalTypeStr = @"2G";
+        } else if ([typeStrings3G containsObject:accessString]) {
+            networkSignalTypeStr = @"3G";
+        } else if ([typeStrings4G containsObject:accessString]) {
+            networkSignalTypeStr = @"4G";
+        }
+    }
+    return networkSignalTypeStr;
+}
+
 + (BOOL)isUsingProxyPort {
     CFDictionaryRef dicRef = CFNetworkCopySystemProxySettings();
     const CFStringRef proxyCFstr = CFDictionaryGetValue(dicRef, (const void *)kCFNetworkProxiesHTTPProxy);

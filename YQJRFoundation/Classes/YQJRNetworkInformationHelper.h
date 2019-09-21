@@ -24,6 +24,13 @@ typedef NS_ENUM(NSInteger, YQJRNetworkReachabilityStatus) {
 + (YQJRNetworkReachabilityStatus)networkReachabilityStatus;
 
 /**
+ 获取网络信号类型(eg:2G、3G、4G、WiFi)
+
+ @return 返回结果
+ */
++ (NSString *)networkSignalType;
+
+/**
  是否使用代理
  
  @return 返回值

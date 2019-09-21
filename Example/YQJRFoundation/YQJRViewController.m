@@ -10,6 +10,7 @@
 #import <YQJRFoundation/YQJRNetworkInformationHelper.h>
 #import <YQJRFoundation/YQJRLocationInformationHelper.h>
 #import <YQJRFoundation/YQJRDeviceInformationHelper.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
 
 @interface YQJRViewController ()
 
@@ -29,6 +30,8 @@
     NSLog(@"%@", [YQJRDeviceInformationHelper systemVersion]);
     NSLog(@"%@", [YQJRDeviceInformationHelper deviceInternalName]);
     NSLog(@"%@", [YQJRDeviceInformationHelper deviceCustomName]);
+    
+    NSLog(@"%@", [YQJRNetworkInformationHelper networkSignalType]);
 }
 
 @end
