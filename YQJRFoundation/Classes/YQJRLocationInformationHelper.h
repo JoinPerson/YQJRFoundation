@@ -10,8 +10,18 @@
 
 @interface YQJRLocationInformationHelper : NSObject
 
+/**
+ 单例获取对象
+ 
+ @return 返回结果
+ */
 + (instancetype)sharedManager;
 
+/**
+ 获取定位位置
+ 
+ @return 返回结果
+ */
 - (CLLocation *)getLocation;
 
 @end
