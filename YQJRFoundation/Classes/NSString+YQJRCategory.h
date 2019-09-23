@@ -38,4 +38,18 @@
  */
 - (NSDate *)yqjr_dateWithyyyyMMdd;
 
+/**
+ 获取uuid
+ 
+ @return 返回结果
+ */
++ (NSString *)yqjr_uuid;
+
+/**
+ 字符串的md5加密
+ 
+ @return 返回结果
+ */
+- (NSString *)yqjr_md5;
+
 @end

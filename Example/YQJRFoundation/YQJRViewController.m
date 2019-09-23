@@ -30,8 +30,11 @@
 //
 //    NSLog(@"%@", [YQJRNetworkInformationHelper networkSignalType]);
     
-    NSLog(@"%@", @([@"1234.9" yqjr_isPureDigital]));
-    NSLog(@"%@", [@"20190923" yqjr_dateWithDateFormatStr:@"yyyyMMdd"]);
+//    NSLog(@"%@", @([@"1234.9" yqjr_isPureDigital]));
+//    NSLog(@"%@", [@"20190923" yqjr_dateWithDateFormatStr:@"yyyyMMdd"]);
+    
+    NSLog(@"%@", [NSString yqjr_uuid]);
+    NSLog(@"%@", [@"wangzhen" yqjr_md5]);
 }
 
 @end
