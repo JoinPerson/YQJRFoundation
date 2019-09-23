@@ -12,6 +12,7 @@
 #import "NSString+YQJRCategory.h"
 #import "YQJRDeviceInformationHelper.h"
 #import "YQJRLocationInformationHelper.h"
+#import "YQJRFoundationCommonMacroDefinition.h"
 #import "YQJRNetworkInformationHelper.h"
 
 #endif /* YQJRFoundation_h */
