@@ -7,10 +7,7 @@
 //
 
 #import "YQJRViewController.h"
-#import <YQJRFoundation/YQJRNetworkInformationHelper.h>
-#import <YQJRFoundation/YQJRLocationInformationHelper.h>
-#import <YQJRFoundation/YQJRDeviceInformationHelper.h>
-#import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import <YQJRFoundation/YQJRFoundation.h>
 
 @interface YQJRViewController ()
 
@@ -19,19 +16,22 @@
 @implementation YQJRViewController
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    NSLog(@"%@", @([YQJRDeviceInformationHelper isSimuLator]));
-    NSLog(@"%@", @([YQJRDeviceInformationHelper isRoot]));
-    NSLog(@"%@", [YQJRDeviceInformationHelper batteryQuantity]);
-    NSLog(@"%@", [YQJRDeviceInformationHelper getFreeSize]);
-    NSLog(@"%@", [YQJRDeviceInformationHelper getTotalSize]);
-    NSLog(@"%@", [YQJRDeviceInformationHelper getTotalRAMSize]);
-    NSLog(@"%@", [YQJRDeviceInformationHelper idfv]);
-    NSLog(@"%@", [YQJRDeviceInformationHelper idfa]);
-    NSLog(@"%@", [YQJRDeviceInformationHelper systemVersion]);
-    NSLog(@"%@", [YQJRDeviceInformationHelper deviceInternalName]);
-    NSLog(@"%@", [YQJRDeviceInformationHelper deviceCustomName]);
+//    NSLog(@"%@", @([YQJRDeviceInformationHelper isSimuLator]));
+//    NSLog(@"%@", @([YQJRDeviceInformationHelper isRoot]));
+//    NSLog(@"%@", [YQJRDeviceInformationHelper batteryQuantity]);
+//    NSLog(@"%@", [YQJRDeviceInformationHelper getFreeSize]);
+//    NSLog(@"%@", [YQJRDeviceInformationHelper getTotalSize]);
+//    NSLog(@"%@", [YQJRDeviceInformationHelper getTotalRAMSize]);
+//    NSLog(@"%@", [YQJRDeviceInformationHelper idfv]);
+//    NSLog(@"%@", [YQJRDeviceInformationHelper idfa]);
+//    NSLog(@"%@", [YQJRDeviceInformationHelper systemVersion]);
+//    NSLog(@"%@", [YQJRDeviceInformationHelper deviceInternalName]);
+//    NSLog(@"%@", [YQJRDeviceInformationHelper deviceCustomName]);
+//
+//    NSLog(@"%@", [YQJRNetworkInformationHelper networkSignalType]);
     
-    NSLog(@"%@", [YQJRNetworkInformationHelper networkSignalType]);
+    NSLog(@"%@", @([@"1234.9" yqjr_isPureDigital]));
+    NSLog(@"%@", [@"20190923" yqjr_dateWithDateFormatStr:@"yyyyMMdd"]);
 }
 
 @end
