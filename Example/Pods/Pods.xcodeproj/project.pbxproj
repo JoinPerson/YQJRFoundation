@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C58CF6848696DD3419C26BE620DF0E /* NSString+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9310B24ECCE788AEA6E4A501CC8B1D /* NSString+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0E56BA77BD997A517F911814E12A6240 /* Pods-YQJRFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6C63C335FB43C7C011C0C4CE1F06F6 /* Pods-YQJRFoundation_Example-dummy.m */; };
-		1C94928B5C713107264A6CDFB6536603 /* NSDate+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EAF1E5E831969644E61D5949CA4B14 /* NSDate+YQJRCategory.m */; };
-		1FE7DC464ED79AD76A215EFD29F57BD3 /* YQJRLocationInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BC4F9DD0FC16657D5F73D1142AAD0D /* YQJRLocationInformationHelper.m */; };
-		23D8BE87EB16A67FEBA849DD45B022B4 /* YQJRDeviceInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A56CAC30660F910FC08D5285A0F10E7F /* YQJRDeviceInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2879699AFEF5855041BA77170AA91B92 /* YQJRNetworkInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E450D0281F75BDB4F6E83F386EFE66C3 /* YQJRNetworkInformationHelper.m */; };
+		1F5A034E33470FF0D0267C47227C4047 /* YQJRDeviceInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 18623CD302517378F4813C621F228B83 /* YQJRDeviceInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FF17AEA3D568A73887835610A49AE15 /* YQJRFoundationCommonMacroDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DF1B4DB2F9D424A131250F5625A954 /* YQJRFoundationCommonMacroDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		230EB22C501B21C7617A4FC5196A997C /* NSDate+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C36E39380C7ABAEE7771F75DEF9701A /* NSDate+YQJRCategory.m */; };
+		26AEEDD16152D636F5DD7590C257333B /* YQJRNetworkInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EB8A979E2D1DF226492F1FA2D59D64 /* YQJRNetworkInformationHelper.m */; };
 		2A6753E8FEDD9C204F85E67658E04721 /* Pods-YQJRFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 529260094DA2195AD1E9524B1C532B2A /* Pods-YQJRFoundation_Tests-dummy.m */; };
-		3A5C6803A9B0CAC53E4CDD014CB23C4F /* YQJRNetworkInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB3388B33AEE83442513D57A54D7E9F /* YQJRNetworkInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3ED7E44DA5EEAC449CB11FF2EAB4DBAB /* NSDate+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B1257ED6BEDB1917EF049EA8125A421A /* NSDate+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4B4BB708D0AF9932AE268C6316589316 /* YQJRFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A82DD7A4C5564E66F164D6B2DF188E /* YQJRFoundation-dummy.m */; };
-		80E446A8D2F00742A0666F6457416E58 /* YQJRLocationInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DC406CED35DDB9AEEF8722A74B8C188D /* YQJRLocationInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B4F549976547B17A058D95C496B5B95C /* NSString+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 455451C67AB4CA1DF425D038D06CF1B6 /* NSString+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BCFBA657C9D8F0829AA3CC2022B8C595 /* NSString+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 067DF227A6FA47EF845FC10EB221986E /* NSString+YQJRCategory.m */; };
-		CD3853B7F9F55DCEC39FAF66BA0606B0 /* YQJRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 93ECB9F5FD758C00E8B72D154A9D9770 /* YQJRFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E61170EC47A4811AD7FFE01DD5081E77 /* YQJRDeviceInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D623E2B05CFB5CAFC99CBBDA546A09 /* YQJRDeviceInformationHelper.m */; };
+		3FA1ED508F17D9465FEA2E79C9CDAA38 /* YQJRLocationInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FC84DCD558CC3F2D20971320E827A0DB /* YQJRLocationInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42875929C10909C12AA77133B324EA2B /* YQJRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C0D87F940C52B299087B643E34FF22 /* YQJRFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62D1805B44A2E9FAE5CB82B63C814F40 /* YQJRDeviceInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1E3EF6F5E8E7D6DF5DFFAEA1823D06 /* YQJRDeviceInformationHelper.m */; };
+		632607E8773EF6D1A5E1F13102BAE0B7 /* YQJRNetworkInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CC04EECAE27F357A90338A19FCE4100F /* YQJRNetworkInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		877FAD32947205B9294CFA0AC027E639 /* YQJRLocationInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F0EC869085B9382E493A50AE61B40 /* YQJRLocationInformationHelper.m */; };
+		8DD25DBF29845A8FB863FDFB9B2BF556 /* NSString+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 885152E029234EAAD9976625E7D34292 /* NSString+YQJRCategory.m */; };
+		C07BE871328F2C17A7548CD0C2E81300 /* NSDate+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 633F0FA32BBB817697353FD212069316 /* NSDate+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FEFA014D27593594F75462E285359099 /* YQJRFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D69ACB6E4FBEFCAA0AA34868E4CE06D8 /* YQJRFoundation-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,36 +43,37 @@
 
 /* Begin PBXFileReference section */
 		012ECB9B9FE040DA1097E785805AB7F1 /* Pods-YQJRFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		05D623E2B05CFB5CAFC99CBBDA546A09 /* YQJRDeviceInformationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQJRDeviceInformationHelper.m; path = YQJRFoundation/Classes/YQJRDeviceInformationHelper.m; sourceTree = "<group>"; };
-		067DF227A6FA47EF845FC10EB221986E /* NSString+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YQJRCategory.m"; path = "YQJRFoundation/Classes/NSString+YQJRCategory.m"; sourceTree = "<group>"; };
+		02850FA67313DF7A665F25E617F84D55 /* YQJRFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQJRFoundation.xcconfig; sourceTree = "<group>"; };
+		18623CD302517378F4813C621F228B83 /* YQJRDeviceInformationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRDeviceInformationHelper.h; path = YQJRFoundation/Classes/YQJRDeviceInformationHelper.h; sourceTree = "<group>"; };
+		1D65864B5E93061CB4483C78A153D567 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		26CB4A40C5D1B2DE953AA90E207A17AE /* Pods-YQJRFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2E8BD88E485C6FBA01B446303D72D58F /* Pods-YQJRFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30A7C977410292C1171EDCC53678EF48 /* Pods-YQJRFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		36DF1B4DB2F9D424A131250F5625A954 /* YQJRFoundationCommonMacroDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRFoundationCommonMacroDefinition.h; path = YQJRFoundation/Classes/YQJRFoundationCommonMacroDefinition.h; sourceTree = "<group>"; };
 		3C58B8A18819E11D2514E673F8878E0C /* libYQJRFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYQJRFoundation.a; path = libYQJRFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		455451C67AB4CA1DF425D038D06CF1B6 /* NSString+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YQJRCategory.h"; path = "YQJRFoundation/Classes/NSString+YQJRCategory.h"; sourceTree = "<group>"; };
-		48FD2B86156300CB1F865DBFBBC352E7 /* YQJRFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQJRFoundation-prefix.pch"; sourceTree = "<group>"; };
+		42EB8A979E2D1DF226492F1FA2D59D64 /* YQJRNetworkInformationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQJRNetworkInformationHelper.m; path = YQJRFoundation/Classes/YQJRNetworkInformationHelper.m; sourceTree = "<group>"; };
+		479202CA9742BCBFB1175F6A8741B981 /* YQJRFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YQJRFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4E1E3EF6F5E8E7D6DF5DFFAEA1823D06 /* YQJRDeviceInformationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQJRDeviceInformationHelper.m; path = YQJRFoundation/Classes/YQJRDeviceInformationHelper.m; sourceTree = "<group>"; };
 		529260094DA2195AD1E9524B1C532B2A /* Pods-YQJRFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQJRFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
+		633F0FA32BBB817697353FD212069316 /* NSDate+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YQJRCategory.h"; path = "YQJRFoundation/Classes/NSDate+YQJRCategory.h"; sourceTree = "<group>"; };
+		6C36E39380C7ABAEE7771F75DEF9701A /* NSDate+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YQJRCategory.m"; path = "YQJRFoundation/Classes/NSDate+YQJRCategory.m"; sourceTree = "<group>"; };
 		74F24D668CFCCC0BA8518B350EFBCD7D /* Pods-YQJRFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQJRFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7AD8AD50A66910B66EE9AC5B0C91DA0E /* Pods-YQJRFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQJRFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8DB3388B33AEE83442513D57A54D7E9F /* YQJRNetworkInformationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRNetworkInformationHelper.h; path = YQJRFoundation/Classes/YQJRNetworkInformationHelper.h; sourceTree = "<group>"; };
-		93ECB9F5FD758C00E8B72D154A9D9770 /* YQJRFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRFoundation.h; path = YQJRFoundation/Classes/YQJRFoundation.h; sourceTree = "<group>"; };
+		840F0EC869085B9382E493A50AE61B40 /* YQJRLocationInformationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQJRLocationInformationHelper.m; path = YQJRFoundation/Classes/YQJRLocationInformationHelper.m; sourceTree = "<group>"; };
+		852023EC6DA07A8AABD7EEFFFE354817 /* YQJRFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQJRFoundation-prefix.pch"; sourceTree = "<group>"; };
+		885152E029234EAAD9976625E7D34292 /* NSString+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YQJRCategory.m"; path = "YQJRFoundation/Classes/NSString+YQJRCategory.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A45AD9408748DEAD1E2CCE1961C03746 /* YQJRFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQJRFoundation.xcconfig; sourceTree = "<group>"; };
-		A56CAC30660F910FC08D5285A0F10E7F /* YQJRDeviceInformationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRDeviceInformationHelper.h; path = YQJRFoundation/Classes/YQJRDeviceInformationHelper.h; sourceTree = "<group>"; };
 		AE6C63C335FB43C7C011C0C4CE1F06F6 /* Pods-YQJRFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQJRFoundation_Example-dummy.m"; sourceTree = "<group>"; };
-		B1257ED6BEDB1917EF049EA8125A421A /* NSDate+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YQJRCategory.h"; path = "YQJRFoundation/Classes/NSDate+YQJRCategory.h"; sourceTree = "<group>"; };
-		B4CD94DA18C660C641A061F524AEF29D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B4EAF1E5E831969644E61D5949CA4B14 /* NSDate+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YQJRCategory.m"; path = "YQJRFoundation/Classes/NSDate+YQJRCategory.m"; sourceTree = "<group>"; };
-		C5BC4F9DD0FC16657D5F73D1142AAD0D /* YQJRLocationInformationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQJRLocationInformationHelper.m; path = YQJRFoundation/Classes/YQJRLocationInformationHelper.m; sourceTree = "<group>"; };
-		D1A82DD7A4C5564E66F164D6B2DF188E /* YQJRFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQJRFoundation-dummy.m"; sourceTree = "<group>"; };
-		DC406CED35DDB9AEEF8722A74B8C188D /* YQJRLocationInformationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRLocationInformationHelper.h; path = YQJRFoundation/Classes/YQJRLocationInformationHelper.h; sourceTree = "<group>"; };
-		E132E384169486F6C9E7731E822FF91C /* YQJRFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YQJRFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E450D0281F75BDB4F6E83F386EFE66C3 /* YQJRNetworkInformationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQJRNetworkInformationHelper.m; path = YQJRFoundation/Classes/YQJRNetworkInformationHelper.m; sourceTree = "<group>"; };
-		E77A379FFF3A9CC0B2246426F030F68D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B4B68EE2B61C330270073A22227864DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CC04EECAE27F357A90338A19FCE4100F /* YQJRNetworkInformationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRNetworkInformationHelper.h; path = YQJRFoundation/Classes/YQJRNetworkInformationHelper.h; sourceTree = "<group>"; };
+		CF9310B24ECCE788AEA6E4A501CC8B1D /* NSString+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YQJRCategory.h"; path = "YQJRFoundation/Classes/NSString+YQJRCategory.h"; sourceTree = "<group>"; };
+		D69ACB6E4FBEFCAA0AA34868E4CE06D8 /* YQJRFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQJRFoundation-dummy.m"; sourceTree = "<group>"; };
+		E1C0D87F940C52B299087B643E34FF22 /* YQJRFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRFoundation.h; path = YQJRFoundation/Classes/YQJRFoundation.h; sourceTree = "<group>"; };
 		E82543D6931E53C658E76F897836C8D0 /* Pods-YQJRFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQJRFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC611386CC28D53ACC3501A4AD78B901 /* libPods-YQJRFoundation_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YQJRFoundation_Example.a"; path = "libPods-YQJRFoundation_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2DEFCD524A0B49467AE122EB5B6577 /* Pods-YQJRFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQJRFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FB0FB0D5B73A3DF5114D0BB5F8C657A9 /* libPods-YQJRFoundation_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YQJRFoundation_Tests.a"; path = "libPods-YQJRFoundation_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC84DCD558CC3F2D20971320E827A0DB /* YQJRLocationInformationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRLocationInformationHelper.h; path = YQJRFoundation/Classes/YQJRLocationInformationHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A8D916C8B245B3BC909CFC6B413C65A /* Frameworks */ = {
+		68079F62A178B48D42F9470D2FBDDDAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,6 +101,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		125BEB92F1A973D9A7A1814E60D660EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02850FA67313DF7A665F25E617F84D55 /* YQJRFoundation.xcconfig */,
+				D69ACB6E4FBEFCAA0AA34868E4CE06D8 /* YQJRFoundation-dummy.m */,
+				852023EC6DA07A8AABD7EEFFFE354817 /* YQJRFoundation-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YQJRFoundation";
+			sourceTree = "<group>";
+		};
 		298B981C621FB75C2E6B3C850C4DD43C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,40 +134,43 @@
 			path = "Target Support Files/Pods-YQJRFoundation_Tests";
 			sourceTree = "<group>";
 		};
-		AE2AE0C50BABD53CCE7F36763C4FD258 /* Support Files */ = {
+		C0202F81F531E145E4EEC4D63BDA8DBD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A45AD9408748DEAD1E2CCE1961C03746 /* YQJRFoundation.xcconfig */,
-				D1A82DD7A4C5564E66F164D6B2DF188E /* YQJRFoundation-dummy.m */,
-				48FD2B86156300CB1F865DBFBBC352E7 /* YQJRFoundation-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YQJRFoundation";
-			sourceTree = "<group>";
-		};
-		AF69284E29E8EE43C39D7338359E63D1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F50FAE75FDB320C75E2DFBEE234AF9DC /* YQJRFoundation */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BE882DE519B4FFDAD0937C68468623B4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B4CD94DA18C660C641A061F524AEF29D /* LICENSE */,
-				E77A379FFF3A9CC0B2246426F030F68D /* README.md */,
-				E132E384169486F6C9E7731E822FF91C /* YQJRFoundation.podspec */,
+				1D65864B5E93061CB4483C78A153D567 /* LICENSE */,
+				B4B68EE2B61C330270073A22227864DF /* README.md */,
+				479202CA9742BCBFB1175F6A8741B981 /* YQJRFoundation.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		C69C22BE3F225F08183576BE05DCEAFE /* YQJRFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				633F0FA32BBB817697353FD212069316 /* NSDate+YQJRCategory.h */,
+				6C36E39380C7ABAEE7771F75DEF9701A /* NSDate+YQJRCategory.m */,
+				CF9310B24ECCE788AEA6E4A501CC8B1D /* NSString+YQJRCategory.h */,
+				885152E029234EAAD9976625E7D34292 /* NSString+YQJRCategory.m */,
+				18623CD302517378F4813C621F228B83 /* YQJRDeviceInformationHelper.h */,
+				4E1E3EF6F5E8E7D6DF5DFFAEA1823D06 /* YQJRDeviceInformationHelper.m */,
+				E1C0D87F940C52B299087B643E34FF22 /* YQJRFoundation.h */,
+				36DF1B4DB2F9D424A131250F5625A954 /* YQJRFoundationCommonMacroDefinition.h */,
+				FC84DCD558CC3F2D20971320E827A0DB /* YQJRLocationInformationHelper.h */,
+				840F0EC869085B9382E493A50AE61B40 /* YQJRLocationInformationHelper.m */,
+				CC04EECAE27F357A90338A19FCE4100F /* YQJRNetworkInformationHelper.h */,
+				42EB8A979E2D1DF226492F1FA2D59D64 /* YQJRNetworkInformationHelper.m */,
+				C0202F81F531E145E4EEC4D63BDA8DBD /* Pod */,
+				125BEB92F1A973D9A7A1814E60D660EA /* Support Files */,
+			);
+			name = YQJRFoundation;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AF69284E29E8EE43C39D7338359E63D1 /* Development Pods */,
+				F0296A94302A5E5504F547D611653CC4 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				DEFB6FDE0840F5E10EDA0E62DD55CE24 /* Products */,
 				298B981C621FB75C2E6B3C850C4DD43C /* Targets Support Files */,
@@ -191,25 +207,12 @@
 			path = "Target Support Files/Pods-YQJRFoundation_Example";
 			sourceTree = "<group>";
 		};
-		F50FAE75FDB320C75E2DFBEE234AF9DC /* YQJRFoundation */ = {
+		F0296A94302A5E5504F547D611653CC4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B1257ED6BEDB1917EF049EA8125A421A /* NSDate+YQJRCategory.h */,
-				B4EAF1E5E831969644E61D5949CA4B14 /* NSDate+YQJRCategory.m */,
-				455451C67AB4CA1DF425D038D06CF1B6 /* NSString+YQJRCategory.h */,
-				067DF227A6FA47EF845FC10EB221986E /* NSString+YQJRCategory.m */,
-				A56CAC30660F910FC08D5285A0F10E7F /* YQJRDeviceInformationHelper.h */,
-				05D623E2B05CFB5CAFC99CBBDA546A09 /* YQJRDeviceInformationHelper.m */,
-				93ECB9F5FD758C00E8B72D154A9D9770 /* YQJRFoundation.h */,
-				DC406CED35DDB9AEEF8722A74B8C188D /* YQJRLocationInformationHelper.h */,
-				C5BC4F9DD0FC16657D5F73D1142AAD0D /* YQJRLocationInformationHelper.m */,
-				8DB3388B33AEE83442513D57A54D7E9F /* YQJRNetworkInformationHelper.h */,
-				E450D0281F75BDB4F6E83F386EFE66C3 /* YQJRNetworkInformationHelper.m */,
-				BE882DE519B4FFDAD0937C68468623B4 /* Pod */,
-				AE2AE0C50BABD53CCE7F36763C4FD258 /* Support Files */,
+				C69C22BE3F225F08183576BE05DCEAFE /* YQJRFoundation */,
 			);
-			name = YQJRFoundation;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,16 +232,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8C7396B7BBC5FADA3A1CF0B768342C1 /* Headers */ = {
+		DF0D1F79D22BEEFF22FB4CA653096A23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED7E44DA5EEAC449CB11FF2EAB4DBAB /* NSDate+YQJRCategory.h in Headers */,
-				B4F549976547B17A058D95C496B5B95C /* NSString+YQJRCategory.h in Headers */,
-				23D8BE87EB16A67FEBA849DD45B022B4 /* YQJRDeviceInformationHelper.h in Headers */,
-				CD3853B7F9F55DCEC39FAF66BA0606B0 /* YQJRFoundation.h in Headers */,
-				80E446A8D2F00742A0666F6457416E58 /* YQJRLocationInformationHelper.h in Headers */,
-				3A5C6803A9B0CAC53E4CDD014CB23C4F /* YQJRNetworkInformationHelper.h in Headers */,
+				C07BE871328F2C17A7548CD0C2E81300 /* NSDate+YQJRCategory.h in Headers */,
+				04C58CF6848696DD3419C26BE620DF0E /* NSString+YQJRCategory.h in Headers */,
+				1F5A034E33470FF0D0267C47227C4047 /* YQJRDeviceInformationHelper.h in Headers */,
+				42875929C10909C12AA77133B324EA2B /* YQJRFoundation.h in Headers */,
+				1FF17AEA3D568A73887835610A49AE15 /* YQJRFoundationCommonMacroDefinition.h in Headers */,
+				3FA1ED508F17D9465FEA2E79C9CDAA38 /* YQJRLocationInformationHelper.h in Headers */,
+				632607E8773EF6D1A5E1F13102BAE0B7 /* YQJRNetworkInformationHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,11 +251,11 @@
 /* Begin PBXNativeTarget section */
 		24E9E70BA62375DDB876ACCD07A5BCF2 /* YQJRFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F4DD36B5ED0615455603CE6F09FC613 /* Build configuration list for PBXNativeTarget "YQJRFoundation" */;
+			buildConfigurationList = BAB4DA6E736EA34E4A106B54BCB426D5 /* Build configuration list for PBXNativeTarget "YQJRFoundation" */;
 			buildPhases = (
-				B8C7396B7BBC5FADA3A1CF0B768342C1 /* Headers */,
-				3419775930D0F472A53B1D81571E9F47 /* Sources */,
-				6A8D916C8B245B3BC909CFC6B413C65A /* Frameworks */,
+				DF0D1F79D22BEEFF22FB4CA653096A23 /* Headers */,
+				B1CC81DB969CB54A584DE39A80AA8DD9 /* Sources */,
+				68079F62A178B48D42F9470D2FBDDDAD /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -327,19 +331,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3419775930D0F472A53B1D81571E9F47 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C94928B5C713107264A6CDFB6536603 /* NSDate+YQJRCategory.m in Sources */,
-				BCFBA657C9D8F0829AA3CC2022B8C595 /* NSString+YQJRCategory.m in Sources */,
-				E61170EC47A4811AD7FFE01DD5081E77 /* YQJRDeviceInformationHelper.m in Sources */,
-				4B4BB708D0AF9932AE268C6316589316 /* YQJRFoundation-dummy.m in Sources */,
-				1FE7DC464ED79AD76A215EFD29F57BD3 /* YQJRLocationInformationHelper.m in Sources */,
-				2879699AFEF5855041BA77170AA91B92 /* YQJRNetworkInformationHelper.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		717B2119C99AAAB8376A9C570E206764 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,6 +344,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E56BA77BD997A517F911814E12A6240 /* Pods-YQJRFoundation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1CC81DB969CB54A584DE39A80AA8DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230EB22C501B21C7617A4FC5196A997C /* NSDate+YQJRCategory.m in Sources */,
+				8DD25DBF29845A8FB863FDFB9B2BF556 /* NSString+YQJRCategory.m in Sources */,
+				62D1805B44A2E9FAE5CB82B63C814F40 /* YQJRDeviceInformationHelper.m in Sources */,
+				FEFA014D27593594F75462E285359099 /* YQJRFoundation-dummy.m in Sources */,
+				877FAD32947205B9294CFA0AC027E639 /* YQJRLocationInformationHelper.m in Sources */,
+				26AEEDD16152D636F5DD7590C257333B /* YQJRNetworkInformationHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,34 +378,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		358330A514EC07634EDD046E35D93D9E /* Release */ = {
+		3D70FC6593644AD08E74C924287483C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A45AD9408748DEAD1E2CCE1961C03746 /* YQJRFoundation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YQJRFoundation/YQJRFoundation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YQJRFoundation;
-				PRODUCT_NAME = YQJRFoundation;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		38A24A751C74CE868857442D5C799657 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A45AD9408748DEAD1E2CCE1961C03746 /* YQJRFoundation.xcconfig */;
+			baseConfigurationReference = 02850FA67313DF7A665F25E617F84D55 /* YQJRFoundation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -590,6 +569,31 @@
 			};
 			name = Debug;
 		};
+		90BC040F218CE5E752E700ACD06E6296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02850FA67313DF7A665F25E617F84D55 /* YQJRFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YQJRFoundation/YQJRFoundation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YQJRFoundation;
+				PRODUCT_NAME = YQJRFoundation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		9C0FB6E6D6B3A57B1EB71786E6B1443D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E8BD88E485C6FBA01B446303D72D58F /* Pods-YQJRFoundation_Tests.debug.xcconfig */;
@@ -636,15 +640,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F4DD36B5ED0615455603CE6F09FC613 /* Build configuration list for PBXNativeTarget "YQJRFoundation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38A24A751C74CE868857442D5C799657 /* Debug */,
-				358330A514EC07634EDD046E35D93D9E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -668,6 +663,15 @@
 			buildConfigurations = (
 				50ED833E9CC4DB6B9981A1FFC70CC12A /* Debug */,
 				E78CBE5E9488AE9CB1AE34AEFB07368F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB4DA6E736EA34E4A106B54BCB426D5 /* Build configuration list for PBXNativeTarget "YQJRFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D70FC6593644AD08E74C924287483C9 /* Debug */,
+				90BC040F218CE5E752E700ACD06E6296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
