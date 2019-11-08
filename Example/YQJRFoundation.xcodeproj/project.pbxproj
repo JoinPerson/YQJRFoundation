@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B5D911FEEEDDDED4D24BE9EB /* libPods-YQJRFoundation_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C03875C758FF1F87A9BFB793 /* libPods-YQJRFoundation_Tests.a */; };
+		D7861B4D237582A0003143D8 /* YQJRCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7861B4C237582A0003143D8 /* YQJRCustomViewController.m */; };
 		EC562A8CA5B36E68B2BC7628 /* libPods-YQJRFoundation_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59F6C455644892EA72829A8 /* libPods-YQJRFoundation_Example.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,8 @@
 		C03875C758FF1F87A9BFB793 /* libPods-YQJRFoundation_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQJRFoundation_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59F6C455644892EA72829A8 /* libPods-YQJRFoundation_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQJRFoundation_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75A4E9C23337E47004B58CB /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		D7861B4B237582A0003143D8 /* YQJRCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQJRCustomViewController.h; sourceTree = "<group>"; };
+		D7861B4C237582A0003143D8 /* YQJRCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQJRCustomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YQJRViewController.h */,
 				6003F5A6195388D20070C39A /* YQJRViewController.m */,
+				D7861B4B237582A0003143D8 /* YQJRCustomViewController.h */,
+				D7861B4C237582A0003143D8 /* YQJRCustomViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -350,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YQJRAppDelegate.m in Sources */,
+				D7861B4D237582A0003143D8 /* YQJRCustomViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* YQJRViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
