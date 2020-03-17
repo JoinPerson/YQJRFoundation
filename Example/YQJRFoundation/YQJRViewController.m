@@ -48,8 +48,8 @@
     
 #pragma mark - YQJRFoundationCommonMacroDefinition
     
-    YQJRCustomViewController *customVC = [[YQJRCustomViewController alloc] init];
-    [self.navigationController pushViewController:customVC animated:YES];
+//    YQJRCustomViewController *customVC = [[YQJRCustomViewController alloc] init];
+//    [self.navigationController pushViewController:customVC animated:YES];
     
 #pragma mark - NSDate+YQJRCategory
     
@@ -75,6 +75,9 @@
 //    NSLog(@"%@", [NSString yqjr_uuid]);
 //    NSLog(@"%@", [@"wangzhen" yqjr_md5]);
     
+#pragma mark - YQJRAPPInformationHelper
+    
+//    NSLog(@"%@",[YQJRAPPInformationHelper appVersion]);
 }
 
 @end

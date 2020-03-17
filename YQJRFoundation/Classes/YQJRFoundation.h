@@ -14,5 +14,6 @@
 #import "YQJRLocationInformationHelper.h"
 #import "YQJRFoundationCommonMacroDefinition.h"
 #import "YQJRNetworkInformationHelper.h"
+#import "YQJRAPPInformationHelper.h"
 
 #endif /* YQJRFoundation_h */
