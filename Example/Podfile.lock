@@ -1,5 +1,5 @@
 PODS:
-  - YQJRFoundation (0.0.3)
+  - YQJRFoundation (0.0.4)
 
 DEPENDENCIES:
   - YQJRFoundation (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YQJRFoundation: 9e02afaa83b4baa9a87d63daf35615fdb3af478d
+  YQJRFoundation: 20d93c142d6e6821117e419a1ccb379176a07e75
 
 PODFILE CHECKSUM: f22f33b389ff82447dc1364e0056a7bb7e659f35
 
