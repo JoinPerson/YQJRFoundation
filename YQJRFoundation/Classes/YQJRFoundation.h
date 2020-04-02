@@ -9,6 +9,7 @@
 #define YQJRFoundation_h
 
 #import "NSDate+YQJRCategory.h"
+#import "NSDictionary+YQJRCategory.h"
 #import "NSString+YQJRCategory.h"
 #import "YQJRDeviceInformationHelper.h"
 #import "YQJRLocationInformationHelper.h"
