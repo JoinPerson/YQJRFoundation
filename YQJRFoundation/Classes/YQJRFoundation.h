@@ -8,6 +8,7 @@
 #ifndef YQJRFoundation_h
 #define YQJRFoundation_h
 
+#import "NSArray+YQJRCategory.h"
 #import "NSDate+YQJRCategory.h"
 #import "NSDictionary+YQJRCategory.h"
 #import "NSString+YQJRCategory.h"

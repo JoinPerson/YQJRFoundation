@@ -11,16 +11,33 @@
 
 - (NSString *)yqjr_safeStringKeyPath:(NSString *)keyPath {
     if (![self isKindOfClass:NSDictionary.class]) {
-        return nil;
+        return @"";
     }
     if (![keyPath isKindOfClass:NSString.class]) {
-        return nil;
+        return @"";
     }
     id result = [self objectForKey:keyPath];
-    if (![result isKindOfClass:NSString.class]) {
-        return nil;
+    if ([result isKindOfClass:NSNumber.class]) {
+        return [NSString stringWithFormat:@"%@", result];
     }
-    return result;
+    if ([result isKindOfClass:NSString.class]) {
+        return result;
+    }
+    return @"";
+}
+
+- (NSArray *)yqjr_safeArrayKeyPath:(NSString *)keyPath {
+    if (![self isKindOfClass:NSDictionary.class]) {
+        return @[];
+    }
+    if (![keyPath isKindOfClass:NSString.class]) {
+        return @[];
+    }
+    id result = [self objectForKey:keyPath];
+    if ([result isKindOfClass:NSArray.class]) {
+        return result;
+    }
+    return @[];
 }
 
 @end

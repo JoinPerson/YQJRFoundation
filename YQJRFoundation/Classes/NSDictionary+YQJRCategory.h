@@ -13,4 +13,8 @@
 /// @param keyPath 键
 - (NSString *)yqjr_safeStringKeyPath:(NSString *)keyPath;
 
+/// 从字典中根据键，安全获取数组
+/// @param keyPath 键
+- (NSArray *)yqjr_safeArrayKeyPath:(NSString *)keyPath;
+
 @end
