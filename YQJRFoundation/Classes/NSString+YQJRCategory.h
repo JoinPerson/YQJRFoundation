@@ -45,6 +45,9 @@
  */
 + (NSString *)yqjr_uuid;
 
+/// 通过获取设备的idfv保存在钥匙串中充当UDID使用
++ (NSString *)yqjr_idfvForUDIDKeychain;
+
 #pragma mark - 散列函数
 /**
  *  计算MD5散列结果
@@ -194,5 +197,39 @@
  *  @return 128个字符的SHA512散列字符串
  */
 - (NSString *)yqjr_fileSHA512Hash;
+
+#pragma mark - NSPredicate
+
+/// 验证手机号
+/// @param phoneNum 手机号
++ (NSString *)yqjr_predicatePhoneNum:(NSString *)phoneNum;
+
+/// 验证身份证号码
+/// @param idCard 身份证号码
++ (NSString *)yqjr_predicateIdCard:(NSString *)idCard;
+
+/// 验证姓名
+/// @param userName 姓名
++ (NSString *)yqjr_predicateUserName:(NSString *)userName;
+
+/// 验证银行卡
+/// @param bankCard 银行卡号
++ (NSString *)yqjr_predicateBankCard:(NSString *)bankCard;
+
+/// 验证密码
+/// @param password 密码
++ (NSString *)yqjr_predicatePassword:(NSString *)password;
+
+/// 验证邮箱
+/// @param email 邮箱号
++ (NSString *)yqjr_predicateEmail:(NSString *)email;
+
+/// 验证备注
+/// @param remark 备注
++ (NSString *)yqjr_predicateRemark:(NSString *)remark;
+
+/// 验证中文
+/// @param chinese 中文
++ (BOOL)yqjr_isChinese:(NSString *)chinese;
 
 @end

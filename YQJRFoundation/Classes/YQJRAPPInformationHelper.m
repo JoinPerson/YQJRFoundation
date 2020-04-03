@@ -6,11 +6,16 @@
 //
 
 #import "YQJRAPPInformationHelper.h"
+#import "NSDictionary+YQJRCategory.h"
 
 @implementation YQJRAPPInformationHelper
 
 + (NSString *)appVersion {
-    return [NSBundle mainBundle].infoDictionary[@"CFBundleShortVersionString"];
+    return [[NSBundle mainBundle].infoDictionary yqjr_safeStringKeyPath:@"CFBundleShortVersionString"];
+}
+
++ (NSString *)bundleIdentifier {
+    return [[NSBundle mainBundle].infoDictionary yqjr_safeStringKeyPath:@"CFBundleIdentifier"];
 }
 
 @end

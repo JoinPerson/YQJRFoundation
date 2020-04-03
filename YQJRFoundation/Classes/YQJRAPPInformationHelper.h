@@ -16,4 +16,7 @@ app版本(eg:1.0)
 */
 + (NSString *)appVersion;
 
+/// 包标识符
++ (NSString *)bundleIdentifier;
+
 @end

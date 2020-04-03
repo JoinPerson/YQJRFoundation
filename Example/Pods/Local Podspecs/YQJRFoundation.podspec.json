@@ -18,5 +18,10 @@
     "tag": "0.0.4"
   },
   "source_files": "YQJRFoundation/Classes/*.{h,m}",
-  "public_header_files": "YQJRFoundation/Classes/*.h"
+  "public_header_files": "YQJRFoundation/Classes/*.h",
+  "dependencies": {
+    "SAMKeychain": [
+      "1.5.3"
+    ]
+  }
 }

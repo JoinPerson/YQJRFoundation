@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
     s.source       = {:git => 'https://github.com/JoinPerson/YQJRFoundation.git', :tag => s.version}
     s.source_files = 'YQJRFoundation/Classes/*.{h,m}'
     s.public_header_files = 'YQJRFoundation/Classes/*.h'
+    s.dependency 'SAMKeychain', '1.5.3'
 end

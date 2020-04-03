@@ -78,6 +78,7 @@
 #pragma mark - YQJRAPPInformationHelper
     
 //    NSLog(@"%@",[YQJRAPPInformationHelper appVersion]);
+//    NSLog(@"%@",[YQJRAPPInformationHelper bundleIdentifier]);
 }
 
 @end

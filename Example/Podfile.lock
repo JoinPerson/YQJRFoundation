@@ -1,16 +1,23 @@
 PODS:
-  - YQJRFoundation (0.0.4)
+  - SAMKeychain (1.5.3)
+  - YQJRFoundation (0.0.4):
+    - SAMKeychain (= 1.5.3)
 
 DEPENDENCIES:
   - YQJRFoundation (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SAMKeychain
 
 EXTERNAL SOURCES:
   YQJRFoundation:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YQJRFoundation: 20d93c142d6e6821117e419a1ccb379176a07e75
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  YQJRFoundation: 35d35dbb221b92a061c90404b9cd44d66a8e7714
 
-PODFILE CHECKSUM: f22f33b389ff82447dc1364e0056a7bb7e659f35
+PODFILE CHECKSUM: 90ccc31db9808c41ede534cdd5548632d06eb6d2
 
 COCOAPODS: 1.9.1
