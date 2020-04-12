@@ -11,11 +11,12 @@
 #import "NSArray+YQJRCategory.h"
 #import "NSDate+YQJRCategory.h"
 #import "NSDictionary+YQJRCategory.h"
+#import "NSNotificationCenter+YQJRCategory.h"
 #import "NSString+YQJRCategory.h"
-#import "YQJRDeviceInformationHelper.h"
-#import "YQJRLocationInformationHelper.h"
-#import "YQJRFoundationCommonMacroDefinition.h"
-#import "YQJRNetworkInformationHelper.h"
 #import "YQJRAPPInformationHelper.h"
+#import "YQJRDeviceInformationHelper.h"
+#import "YQJRFoundationCommonMacroDefinition.h"
+#import "YQJRLocationInformationHelper.h"
+#import "YQJRNetworkInformationHelper.h"
 
 #endif /* YQJRFoundation_h */
