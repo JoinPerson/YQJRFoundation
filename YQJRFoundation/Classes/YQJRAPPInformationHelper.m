@@ -18,4 +18,8 @@
     return [[NSBundle mainBundle].infoDictionary yqjr_safeStringKeyPath:@"CFBundleIdentifier"];
 }
 
++ (NSString *)appName {
+    return [[NSBundle mainBundle].infoDictionary yqjr_safeStringKeyPath:@"CFBundleDisplayName"];
+}
+
 @end

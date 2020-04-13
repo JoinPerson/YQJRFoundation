@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
     s.source_files = 'YQJRFoundation/Classes/*.{h,m}'
     s.public_header_files = 'YQJRFoundation/Classes/*.h'
     s.dependency 'SAMKeychain', '1.5.3'
+    s.libraries = 'resolv'
 end

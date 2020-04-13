@@ -65,4 +65,10 @@ typedef NS_ENUM(NSInteger, YQJRNetworkReachabilityStatus) {
  */
 + (NSString *)getWifiName;
 
+/// 获取设备当前网络IP地址
++ (NSString *)getIPAddress:(BOOL)preferIPv4;
+
+/// 获取本机DNS服务器
++ (NSString *)getDNSServers;
+
 @end

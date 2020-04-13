@@ -19,4 +19,7 @@ app版本(eg:1.0)
 /// 包标识符
 + (NSString *)bundleIdentifier;
 
+/// APP的名称
++ (NSString *)appName;
+
 @end

@@ -17,4 +17,9 @@
 /// @param keyPath 键
 - (NSArray *)yqjr_safeArrayKeyPath:(NSString *)keyPath;
 
+/// 安全保存键值对
+/// @param value 要保存的值
+/// @param forKey 要保存的键
+- (void)yqjr_safeSetValue:(id)value forKey:(NSString *)forKey;
+
 @end

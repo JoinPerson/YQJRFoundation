@@ -10,6 +10,7 @@
 #import "YQJRDeviceInformationHelper.h"
 #import "YQJRAPPInformationHelper.h"
 #import <SAMKeychain/SAMKeychain.h>
+#import <AdSupport/AdSupport.h>
 
 @implementation NSString (YQJRCategory)
 
@@ -49,13 +50,28 @@
 
 + (NSString *)yqjr_idfvForUDIDKeychain {
     NSString *bundleId = [YQJRAPPInformationHelper bundleIdentifier];
-    NSString *account = @"yqjr_idfvForUUIDKeychain";
+    NSString *account = @"yqjr_idfvForUDIDKeychain";
     NSString *result = [SAMKeychain passwordForService:bundleId account:account];
     if (result.length == 0) {
         result = [YQJRDeviceInformationHelper idfv];
         [result stringByReplacingOccurrencesOfString:@"-" withString:@""];
         result = [result lowercaseString] ? : @"";
         [SAMKeychain setPassword:result forService:bundleId account:account];
+    }
+    return result;
+}
+
++ (NSString *)yqjr_idfaForUDIDKeychain {
+    NSString *bundleId = [YQJRAPPInformationHelper bundleIdentifier];
+    NSString *account = @"yqjr_idfaForUDIDKeychain";
+    NSString *result = [SAMKeychain passwordForService:bundleId account:account];
+    if (result.length == 0) {
+        if ([[ASIdentifierManager sharedManager] isAdvertisingTrackingEnabled] == NO) {
+            result = @"";
+        } else {
+            result = [YQJRDeviceInformationHelper idfa];
+            [SAMKeychain setPassword:result forService:bundleId account:account];
+        }
     }
     return result;
 }

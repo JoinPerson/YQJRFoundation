@@ -48,6 +48,9 @@
 /// 通过获取设备的idfv保存在钥匙串中充当UDID使用
 + (NSString *)yqjr_idfvForUDIDKeychain;
 
+/// 通过获取设备的idfa保存在钥匙串中充当UDID使用
++ (NSString *)yqjr_idfaForUDIDKeychain;
+
 #pragma mark - 散列函数
 /**
  *  计算MD5散列结果
