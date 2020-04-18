@@ -13,6 +13,7 @@
 #import "NSDictionary+YQJRCategory.h"
 #import "NSNotificationCenter+YQJRCategory.h"
 #import "NSString+YQJRCategory.h"
+#import "NSUserDefaults+YQJRCategory.h"
 #import "YQJRAPPInformationHelper.h"
 #import "YQJRDeviceInformationHelper.h"
 #import "YQJRFoundationCommonMacroDefinition.h"
