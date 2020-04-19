@@ -58,12 +58,9 @@ typedef NS_ENUM(NSInteger, YQJRNetworkReachabilityStatus) {
  */
 + (NSString *)getIMSI;
 
-/**
- 获取WiFi名称
-
- @return 返回结果
- */
-+ (NSString *)getWifiName;
+/// 获取WiFi名称
+/// @param percentEncoding 是否百分号转义
++ (NSString *)getWifiNamePercentEncoding:(BOOL)percentEncoding;
 
 /// 获取设备当前网络IP地址
 + (NSString *)getIPAddress:(BOOL)preferIPv4;

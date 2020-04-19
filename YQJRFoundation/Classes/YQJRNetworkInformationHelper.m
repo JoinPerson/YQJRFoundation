@@ -104,7 +104,7 @@
     return imsi;
 }
 
-+ (NSString *)getWifiName {
++ (NSString *)getWifiNamePercentEncoding:(BOOL)percentEncoding {
     NSString *wifiName = @"";
     CFArrayRef wifiInterfaces = CNCopySupportedInterfaces();
     if (!wifiInterfaces) {
@@ -120,6 +120,10 @@
         }
     }
     CFRelease(wifiInterfaces);
+    if(!wifiName)wifiName = @"";
+    if (percentEncoding) {
+        wifiName = [wifiName stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+    }
     return wifiName;
 }
 
