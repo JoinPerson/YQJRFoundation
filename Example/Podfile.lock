@@ -1,6 +1,6 @@
 PODS:
   - SAMKeychain (1.5.3)
-  - YQJRFoundation (0.0.5):
+  - YQJRFoundation (0.0.6):
     - SAMKeychain (= 1.5.3)
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  YQJRFoundation: 68381c1e8913ed99ad38b54678744d06ce7b93bc
+  YQJRFoundation: a18ac7752ef4ff2132dc882628eb2357b02dc5cc
 
 PODFILE CHECKSUM: 90ccc31db9808c41ede534cdd5548632d06eb6d2
 
