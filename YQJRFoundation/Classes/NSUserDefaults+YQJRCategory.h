@@ -15,4 +15,6 @@
 
 + (void)yqjr_synchronize;
 
++ (void)yqjr_removeObjectForKey:(NSString *)defaultName;
+
 @end

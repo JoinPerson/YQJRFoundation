@@ -27,4 +27,11 @@
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
++ (void)yqjr_removeObjectForKey:(NSString *)defaultName {
+    if (defaultName == nil) {
+        return;
+    }
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:defaultName];
+}
+
 @end
