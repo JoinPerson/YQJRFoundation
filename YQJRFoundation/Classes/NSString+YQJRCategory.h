@@ -219,9 +219,13 @@
 /// @param bankCard 银行卡号
 + (NSString *)yqjr_predicateBankCard:(NSString *)bankCard;
 
-/// 验证密码
+/// 验证密码(6到16位由数字、字母组合的密码)
 /// @param password 密码
 + (NSString *)yqjr_predicatePassword:(NSString *)password;
+
+/// 验证密码规则(6到15位(由数字、字母或下划线其中两种组合))
+/// @param password1 密码
++ (NSString *)yqjr_predicatePassword1:(NSString *)password1;
 
 /// 验证邮箱
 /// @param email 邮箱号

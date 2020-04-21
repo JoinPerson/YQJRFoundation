@@ -458,7 +458,23 @@
     NSString *regex = @"^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,16}$";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
     if (![pred evaluateWithObject:password]) {
-        return @"您输入的密码有误，请重新输入";
+        return @"您输入的密码有误，请重新输入6到16位由数字、字母组合的密码";
+    }
+    return nil;
+}
+
++ (NSString *)yqjr_predicatePassword1:(NSString *)password1 {
+    if (![password1 isKindOfClass:NSString.class]) {
+        return @"请输入密码";
+    }
+    if (password1.length == 0) {
+        return @"请输入密码";
+    }
+    
+    NSString *regex = @"^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z_]{6,15}$";
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
+    if (![pred evaluateWithObject:password1]) {
+        return @"您输入的密码有误，请重新输入6到15位由数字、字母或下划线其中两种组合的密码";
     }
     return nil;
 }
