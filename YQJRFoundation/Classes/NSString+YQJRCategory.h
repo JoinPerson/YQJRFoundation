@@ -45,12 +45,6 @@
  */
 + (NSString *)yqjr_uuid;
 
-/// 通过获取设备的idfv保存在钥匙串中充当UDID使用
-+ (NSString *)yqjr_idfvForUDIDKeychain;
-
-/// 通过获取设备的idfa保存在钥匙串中充当UDID使用
-+ (NSString *)yqjr_idfaForUDIDKeychain;
-
 #pragma mark - 散列函数
 /**
  *  计算MD5散列结果
@@ -205,35 +199,23 @@
 
 /// 验证手机号
 /// @param phoneNum 手机号
-+ (NSString *)yqjr_predicatePhoneNum:(NSString *)phoneNum;
++ (BOOL)yqjr_predicatePhoneNum:(NSString *)phoneNum;
 
 /// 验证身份证号码
 /// @param idCard 身份证号码
-+ (NSString *)yqjr_predicateIdCard:(NSString *)idCard;
-
-/// 验证姓名
-/// @param userName 姓名
-+ (NSString *)yqjr_predicateUserName:(NSString *)userName;
++ (BOOL)yqjr_predicateIdCard:(NSString *)idCard;
 
 /// 验证银行卡
 /// @param bankCard 银行卡号
-+ (NSString *)yqjr_predicateBankCard:(NSString *)bankCard;
-
-/// 验证密码(6到16位由数字、字母组合的密码)
-/// @param password 密码
-+ (NSString *)yqjr_predicatePassword:(NSString *)password;
++ (BOOL)yqjr_predicateBankCard:(NSString *)bankCard;
 
 /// 验证密码规则(6到15位(由数字、字母或下划线其中两种组合))
-/// @param password1 密码
-+ (NSString *)yqjr_predicatePassword1:(NSString *)password1;
+/// @param password 密码
++ (BOOL)yqjr_predicatePassword:(NSString *)password;
 
 /// 验证邮箱
 /// @param email 邮箱号
-+ (NSString *)yqjr_predicateEmail:(NSString *)email;
-
-/// 验证备注
-/// @param remark 备注
-+ (NSString *)yqjr_predicateRemark:(NSString *)remark;
++ (BOOL)yqjr_predicateEmail:(NSString *)email;
 
 /// 验证中文
 /// @param chinese 中文

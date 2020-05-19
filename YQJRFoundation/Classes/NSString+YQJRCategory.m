@@ -48,34 +48,6 @@
     return result;
 }
 
-+ (NSString *)yqjr_idfvForUDIDKeychain {
-    NSString *bundleId = [YQJRAPPInformationHelper bundleIdentifier];
-    NSString *account = @"yqjr_idfvForUDIDKeychain";
-    NSString *result = [SAMKeychain passwordForService:bundleId account:account];
-    if (result.length == 0) {
-        result = [YQJRDeviceInformationHelper idfv];
-        [result stringByReplacingOccurrencesOfString:@"-" withString:@""];
-        result = [result lowercaseString] ? : @"";
-        [SAMKeychain setPassword:result forService:bundleId account:account];
-    }
-    return result;
-}
-
-+ (NSString *)yqjr_idfaForUDIDKeychain {
-    NSString *bundleId = [YQJRAPPInformationHelper bundleIdentifier];
-    NSString *account = @"yqjr_idfaForUDIDKeychain";
-    NSString *result = [SAMKeychain passwordForService:bundleId account:account];
-    if (result.length == 0) {
-        if ([[ASIdentifierManager sharedManager] isAdvertisingTrackingEnabled] == NO) {
-            result = @"";
-        } else {
-            result = [YQJRDeviceInformationHelper idfa];
-            [SAMKeychain setPassword:result forService:bundleId account:account];
-        }
-    }
-    return result;
-}
-
 #pragma mark - 散列函数
 - (NSString *)yqjr_md5String {
     const char *str = self.UTF8String;
@@ -291,33 +263,33 @@
 
 #pragma mark - NSPredicate
 
-+ (NSString *)yqjr_predicatePhoneNum:(NSString *)phoneNum {
++ (BOOL)yqjr_predicatePhoneNum:(NSString *)phoneNum {
     if (![phoneNum isKindOfClass:NSString.class]) {
-        return @"请输入手机号码";
+        return NO;
     }
     if (phoneNum.length == 0) {
-        return @"请输入手机号码";
+        return NO;
     }
     
     NSString *phoneRegex = @"^1\\d{10}$";
     NSPredicate *phonePred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",phoneRegex];
     if (![phonePred evaluateWithObject:phoneNum]) {
-        return @"您输入的手机号有误，请重新输入";
+        return NO;
     }
-    return nil;
+    return YES;
 }
 
-+ (NSString *)yqjr_predicateIdCard:(NSString *)idCard {
++ (BOOL)yqjr_predicateIdCard:(NSString *)idCard {
     if (![idCard isKindOfClass:NSString.class]) {
-        return @"请输入身份证号码";
+        return NO;
     }
     if (idCard.length == 0) {
-        return @"请输入身份证号码";
+        return NO;
     }
     
     NSInteger length = idCard.length;
     if (length != 15 && length !=18) {
-        return @"身份证格式有误，请重新输入";
+        return NO;
     }
 
     //省份代码
@@ -333,7 +305,7 @@
     }
     
     if (!areaFlag) {
-        return @"身份证格式有误，请重新输入";
+        return NO;
     }
     
     NSRegularExpression *regularExpression;
@@ -359,9 +331,9 @@
                                                                  range:NSMakeRange(0, idCard.length)];
             
             if (numberofMatch > 0) {
-                return nil;
+                return YES;
             } else {
-                return @"身份证格式有误，请重新输入";
+                return NO;
             }
         case 18:
             year = [idCard substringWithRange:NSMakeRange(6,4)].intValue;
@@ -403,107 +375,67 @@
                 NSString *JYM = @"10X98765432";
                 M = [JYM substringWithRange:NSMakeRange(Y,1)]; // 判断校验位
                 if ([M isEqualToString:[idCard substringWithRange:NSMakeRange(17,1)]]) {
-                    return nil;// 检测ID的校验位
+                    return YES;// 检测ID的校验位
                 } else {
-                    return @"身份证格式有误，请重新输入";
+                    return NO;
                 }
             } else {
-                return @"身份证格式有误，请重新输入";
+                return NO;
             }
         default:
-            return @"身份证格式有误，请重新输入";
+            return NO;
     }
 }
 
-+ (NSString *)yqjr_predicateUserName:(NSString *)userName {
-    if (![userName isKindOfClass:NSString.class]) {
-        return @"请输入用户姓名";
-    }
-    if (userName.length == 0) {
-        return @"请输入用户姓名";
-    }
-    
-    NSString *nameRegex = @"^([\\u4E00-\\u9FA5\\uf900-\\ufa2d\\·]{2,20})$";
-    NSPredicate *namePred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",nameRegex];
-    if (![namePred evaluateWithObject:userName]) {
-        return @"您输入的姓名有误，请重新输入";
-    }
-    return nil;
-}
-
-+ (NSString *)yqjr_predicateBankCard:(NSString *)bankCard {
++ (BOOL)yqjr_predicateBankCard:(NSString *)bankCard {
     if (![bankCard isKindOfClass:NSString.class]) {
-        return @"请输入银行卡号";
+        return NO;
     }
     if (bankCard.length == 0) {
-        return @"请输入银行卡号";
+        return NO;
     }
     
     NSString *regex = @"^([0-9]{16,19})$";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
     if (![pred evaluateWithObject:bankCard]) {
-        return @"银行卡号格式有误，请重新输入";
+        return NO;
     }
-    return nil;
+    return YES;
 }
 
-+ (NSString *)yqjr_predicatePassword:(NSString *)password {
++ (BOOL)yqjr_predicatePassword:(NSString *)password {
     if (![password isKindOfClass:NSString.class]) {
-        return @"请输入密码";
+        return NO;
     }
     if (password.length == 0) {
-        return @"请输入密码";
-    }
-    
-    NSString *regex = @"^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,16}$";
-    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
-    if (![pred evaluateWithObject:password]) {
-        return @"您输入的密码有误，请重新输入6到16位由数字、字母组合的密码";
-    }
-    return nil;
-}
-
-+ (NSString *)yqjr_predicatePassword1:(NSString *)password1 {
-    if (![password1 isKindOfClass:NSString.class]) {
-        return @"请输入密码";
-    }
-    if (password1.length == 0) {
-        return @"请输入密码";
+        return NO;
     }
     
     NSString *regex = @"^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z_]{6,15}$";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
-    if (![pred evaluateWithObject:password1]) {
-        return @"您输入的密码有误，请重新输入6到15位由数字、字母或下划线其中两种组合的密码";
+    if (![pred evaluateWithObject:password]) {
+        return NO;
     }
-    return nil;
+    return YES;
 }
 
-+ (NSString *)yqjr_predicateEmail:(NSString *)email {
++ (BOOL)yqjr_predicateEmail:(NSString *)email {
     if (![email isKindOfClass:NSString.class]) {
-        return @"请输入邮箱号";
+        return NO;
     }
     if (email.length == 0) {
-        return @"请输入邮箱号";
+        return NO;
     }
     if (email.length > 30) {
-        return @"邮箱格式有误，请重新输入";
+        return NO;
     }
     
     NSString *regex = @"^[a-z0-9]+([._\\-] *[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
     if (![pred evaluateWithObject:email]) {
-        return @"邮箱格式有误，请重新输入";
+        return NO;
     }
-    return nil;
-}
-
-+ (NSString *)yqjr_predicateRemark:(NSString *)remark {
-    if (remark.length <= 10) {
-        return nil;
-    } else {
-        return @"备注信息在10个字符之内";
-    }
+    return YES;
 }
 
 + (BOOL)yqjr_isChinese:(NSString *)chinese {
