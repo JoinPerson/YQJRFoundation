@@ -7,36 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A5784F67DC877D2B13323E4AAA975C3 /* NSNotificationCenter+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC291CEE565240A2A368E8C0F092273 /* NSNotificationCenter+YQJRCategory.m */; };
-		1BF4D9DCF2C605B882B70DA9ED9C7BE0 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D0C838BF7FFE9B28014E5EE4142E609 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		25BEC5C3B26D96D71350D5D2E6682EF1 /* NSString+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A0AC22855C42D1823CD63BDF5719CD /* NSString+YQJRCategory.m */; };
-		26B3540324B6421A70873EF36679A788 /* NSUserDefaults+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE59A63809F0C4C21BDACF150E8C35 /* NSUserDefaults+YQJRCategory.m */; };
-		2A6753E8FEDD9C204F85E67658E04721 /* Pods-YQJRFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E645475B25380A218E99FBDABC2E6160 /* Pods-YQJRFoundation_Tests-dummy.m */; };
-		31B1058D1CFAD6A357CB762B0B6EA3A3 /* NSUserDefaults+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A0DB7690207BAE08CA56FD97F202210B /* NSUserDefaults+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4537DA3F3F75973B3AB394C2C4E87A17 /* NSDictionary+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E8339CB5A3CD674882CF7CB0601B272F /* NSDictionary+YQJRCategory.m */; };
-		45728F7A8765B406903AEAE197E4ECD3 /* NSDate+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A29CF38DD159960C68643FE9CE133694 /* NSDate+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		47339463A857712EB672738CA31CA49D /* NSString+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C04A20AA45FD93BE72CBEA6D9DB737 /* NSString+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4D02E5F83881BEDD59B9F6F91AE6044D /* NSArray+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DBA0E4E267662A0E2FE3AE2CA0E136 /* NSArray+YQJRCategory.m */; };
-		5EC5D924F6491DD954CFFCA2C626BE75 /* YQJRAPPInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0577920D3838E7DEA611600F5C18E3 /* YQJRAPPInformationHelper.m */; };
-		669F2D5DA26CADB0E1433B5C2CBFC3C4 /* NSNotificationCenter+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D12C75A7BB527B1ED0CAC73F84E277F /* NSNotificationCenter+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		744246E6F5F15981E85D0A41A293395F /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 80218D56AAB6022528FD1B6D328861B6 /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7DB4153074AE326714B8893C07AD8995 /* NSArray+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C36F9CC621A2E28B7B55F6F91454F61F /* NSArray+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8B59C68AEB20E95F7A7B8E54E14D0D44 /* YQJRDeviceInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055478FD06BFC235A0AB261B2C73F13 /* YQJRDeviceInformationHelper.m */; };
-		8F4CC2D7D779CDAF51E0F212F6EB02CC /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 390FBB156C972B687BA4245F0CEC0D77 /* SAMKeychain-dummy.m */; };
-		9BF8C9EF917C5915799C15C11C37E935 /* YQJRNetworkInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 93EC2D3171C2518AE8AA517CFE9EFEA1 /* YQJRNetworkInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9D229DC060AAB653C6235F5A20F70D76 /* YQJRFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4660CAA0D78DAA631826E8B9875F8E0 /* YQJRFoundation-dummy.m */; };
-		A02282564A2A10159E47D9AC3798A281 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD02A40B620932072F999659EE257BA /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AD9C1C6A37D86A814F89DB59B35765AB /* YQJRLocationInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D043A06C94C94E330C74BEBC334DF11E /* YQJRLocationInformationHelper.m */; };
-		BB1C00934A544AF304E97255CB90DC53 /* NSDate+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F44F625E5B6E85904FA4E64D310CDF5 /* NSDate+YQJRCategory.m */; };
-		C94D0B955D66832F2324EAB768BA5FA2 /* YQJRAPPInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1506F1DD7FA6B2E78CD578A3A9837D /* YQJRAPPInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CBC9B644392BD7C2BCAD57C012096D4C /* YQJRDeviceInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FAC23389BE4234FB36559483D7D891 /* YQJRDeviceInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D13F1A7099F4CA4E1B7A0DF48F5C17DA /* YQJRLocationInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B0AC0D2F9D2496E6A73778F91D00B9 /* YQJRLocationInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E2A1FC8DE1540BD9C3507D62369CDD99 /* NSDictionary+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D31649BE9BCF270E39BDC449910DB65 /* NSDictionary+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E8B1ED6CF1CA2E2D7D0BB781F5C5DE41 /* YQJRFoundationCommonMacroDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = D26ECBBC79F054D32B6C6239EB700DE9 /* YQJRFoundationCommonMacroDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EE699D5C5B11847A8803192E5EFB8C81 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B75F775CD70DBF511572728D29996F3 /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F3F3BC1A73C95533C23662E852B9676F /* YQJRNetworkInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 656EE75E9E7A0EFEC25F863644BCC527 /* YQJRNetworkInformationHelper.m */; };
-		F7E00224414C8B15D5B4947AE2A35DFE /* Pods-YQJRFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E251BF0E56F5967274AE7E6302919A /* Pods-YQJRFoundation_Example-dummy.m */; };
-		FFDB2EE0487EF0B85A75CEE1FFBB870A /* YQJRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E5DEBE0B998EB9A803AAE09BF53558 /* YQJRFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E56BA77BD997A517F911814E12A6240 /* Pods-YQJRFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6C63C335FB43C7C011C0C4CE1F06F6 /* Pods-YQJRFoundation_Example-dummy.m */; };
+		107C391CF4D189C09621ADF24019A643 /* NSNotificationCenter+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC291CEE565240A2A368E8C0F092273 /* NSNotificationCenter+YQJRCategory.m */; };
+		14191CCDFFE8D5B6465CB2D0F90AD39C /* NSDate+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A29CF38DD159960C68643FE9CE133694 /* NSDate+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		20C3BE7D6BC568D69F3D70995FC7551D /* YQJRFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4660CAA0D78DAA631826E8B9875F8E0 /* YQJRFoundation-dummy.m */; };
+		2A6753E8FEDD9C204F85E67658E04721 /* Pods-YQJRFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 529260094DA2195AD1E9524B1C532B2A /* Pods-YQJRFoundation_Tests-dummy.m */; };
+		302A2C366D3B4208BEE7469C46A0384E /* YQJRLocationInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B0AC0D2F9D2496E6A73778F91D00B9 /* YQJRLocationInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B766E7BCDF2B0734807D4452B4ECE31 /* YQJRLocationInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D043A06C94C94E330C74BEBC334DF11E /* YQJRLocationInformationHelper.m */; };
+		3D3B6705B0C157D055901BA8FE948B7C /* NSDictionary+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D31649BE9BCF270E39BDC449910DB65 /* NSDictionary+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		413185A5D8254BBD142E9171AEE6F1F9 /* YQJRDeviceInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055478FD06BFC235A0AB261B2C73F13 /* YQJRDeviceInformationHelper.m */; };
+		4C463C1120B0B631644D5AFAB18AB149 /* NSDictionary+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E8339CB5A3CD674882CF7CB0601B272F /* NSDictionary+YQJRCategory.m */; };
+		518395CB0F0701EBF121DF1DA112EDDF /* YQJRNetworkInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 93EC2D3171C2518AE8AA517CFE9EFEA1 /* YQJRNetworkInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55FB30543EDD80007F73990C1CE74ABB /* NSUserDefaults+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE59A63809F0C4C21BDACF150E8C35 /* NSUserDefaults+YQJRCategory.m */; };
+		63E92A203173464E762C6D6577703631 /* YQJRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E5DEBE0B998EB9A803AAE09BF53558 /* YQJRFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C104EE4C6FA5036373E8F4CB67BD224 /* NSUserDefaults+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A0DB7690207BAE08CA56FD97F202210B /* NSUserDefaults+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72FA1E7A978A497E1A0EBC3F5F9E4F88 /* YQJRAPPInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0577920D3838E7DEA611600F5C18E3 /* YQJRAPPInformationHelper.m */; };
+		7A8B6C4EAF1F720BE5F708F5CD821E1D /* NSDate+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F44F625E5B6E85904FA4E64D310CDF5 /* NSDate+YQJRCategory.m */; };
+		7E97F4D52BB7084506DA5274DB01ECE4 /* YQJRFoundationCommonMacroDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = D26ECBBC79F054D32B6C6239EB700DE9 /* YQJRFoundationCommonMacroDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8522F190F82627925EB02CAA3DFA7F2E /* YQJRDeviceInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FAC23389BE4234FB36559483D7D891 /* YQJRDeviceInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		960A6C46BA76BDBCA654EBE2D7891CA5 /* NSNotificationCenter+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D12C75A7BB527B1ED0CAC73F84E277F /* NSNotificationCenter+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EF68FBDF621DD78678D2EB7BF68FD97 /* NSArray+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C36F9CC621A2E28B7B55F6F91454F61F /* NSArray+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF9702F6943DBF49EE0546DCE21574D1 /* YQJRAPPInformationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1506F1DD7FA6B2E78CD578A3A9837D /* YQJRAPPInformationHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB7CB343E05B8C1E88AAEBD59A65790E /* YQJRNetworkInformationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 656EE75E9E7A0EFEC25F863644BCC527 /* YQJRNetworkInformationHelper.m */; };
+		E0615C34F00DE772574B00B05FAC3EE2 /* NSString+YQJRCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C04A20AA45FD93BE72CBEA6D9DB737 /* NSString+YQJRCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3F95C875521B64E3EB09C99BBA8568E /* NSArray+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DBA0E4E267662A0E2FE3AE2CA0E136 /* NSArray+YQJRCategory.m */; };
+		F2B996E7228DA8759AE0FE591BD47BCA /* NSString+YQJRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A0AC22855C42D1823CD63BDF5719CD /* NSString+YQJRCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,87 +42,69 @@
 			remoteGlobalIDString = 4FE6F330F16C961578309162EA357908;
 			remoteInfo = "Pods-YQJRFoundation_Example";
 		};
-		7638E5F5DFCDBB87B990176FDFB37FAC /* PBXContainerItemProxy */ = {
+		8507DCB9BB2EA582D519C2E8EFA510D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 24E9E70BA62375DDB876ACCD07A5BCF2;
 			remoteInfo = YQJRFoundation;
 		};
-		A4447FE9FEA4CE34ED9E0252C0ECECBE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
-			remoteInfo = SAMKeychain;
-		};
-		F901E8C60165831068EF178748AB36F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
-			remoteInfo = SAMKeychain;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		012ECB9B9FE040DA1097E785805AB7F1 /* Pods-YQJRFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1B0577920D3838E7DEA611600F5C18E3 /* YQJRAPPInformationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQJRAPPInformationHelper.m; path = YQJRFoundation/Classes/YQJRAPPInformationHelper.m; sourceTree = "<group>"; };
 		1D12C75A7BB527B1ED0CAC73F84E277F /* NSNotificationCenter+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+YQJRCategory.h"; path = "YQJRFoundation/Classes/NSNotificationCenter+YQJRCategory.h"; sourceTree = "<group>"; };
 		1D9F16686591328981D9C6920155112C /* YQJRFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQJRFoundation-prefix.pch"; sourceTree = "<group>"; };
 		2055478FD06BFC235A0AB261B2C73F13 /* YQJRDeviceInformationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQJRDeviceInformationHelper.m; path = YQJRFoundation/Classes/YQJRDeviceInformationHelper.m; sourceTree = "<group>"; };
-		2B75F775CD70DBF511572728D29996F3 /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
-		2DDC87F20E864EB9D9A2DAF9E2C605B3 /* Pods-YQJRFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		26CB4A40C5D1B2DE953AA90E207A17AE /* Pods-YQJRFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2E8BD88E485C6FBA01B446303D72D58F /* Pods-YQJRFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		30A7C977410292C1171EDCC53678EF48 /* Pods-YQJRFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		317CF68407234336C4B47A7B26B4FE51 /* YQJRFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQJRFoundation.release.xcconfig; sourceTree = "<group>"; };
 		38B0AC0D2F9D2496E6A73778F91D00B9 /* YQJRLocationInformationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRLocationInformationHelper.h; path = YQJRFoundation/Classes/YQJRLocationInformationHelper.h; sourceTree = "<group>"; };
-		390FBB156C972B687BA4245F0CEC0D77 /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
 		39A0AC22855C42D1823CD63BDF5719CD /* NSString+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YQJRCategory.m"; path = "YQJRFoundation/Classes/NSString+YQJRCategory.m"; sourceTree = "<group>"; };
 		3C58B8A18819E11D2514E673F8878E0C /* libYQJRFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYQJRFoundation.a; path = libYQJRFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DAA2A2C707547977F060A7BC601890 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4D0C838BF7FFE9B28014E5EE4142E609 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
-		4D45A08B2032C864848DF9670E5B85F2 /* Pods-YQJRFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		529260094DA2195AD1E9524B1C532B2A /* Pods-YQJRFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQJRFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
 		5D31649BE9BCF270E39BDC449910DB65 /* NSDictionary+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+YQJRCategory.h"; path = "YQJRFoundation/Classes/NSDictionary+YQJRCategory.h"; sourceTree = "<group>"; };
-		612028EAFF1C2054A0EB821A9C9F2440 /* libSAMKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSAMKeychain.a; path = libSAMKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		656EE75E9E7A0EFEC25F863644BCC527 /* YQJRNetworkInformationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQJRNetworkInformationHelper.m; path = YQJRFoundation/Classes/YQJRNetworkInformationHelper.m; sourceTree = "<group>"; };
 		6831BBE360B88E07141396D2FCDD1043 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6F1506F1DD7FA6B2E78CD578A3A9837D /* YQJRAPPInformationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRAPPInformationHelper.h; path = YQJRFoundation/Classes/YQJRAPPInformationHelper.h; sourceTree = "<group>"; };
-		758213D91DA13B3F017AB457E4AD2EB8 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
-		76D27490C4F7D40A8B4A0BC2BB09489D /* Pods-YQJRFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQJRFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		80218D56AAB6022528FD1B6D328861B6 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
+		74F24D668CFCCC0BA8518B350EFBCD7D /* Pods-YQJRFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQJRFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7AD8AD50A66910B66EE9AC5B0C91DA0E /* Pods-YQJRFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQJRFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		86E5DEBE0B998EB9A803AAE09BF53558 /* YQJRFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRFoundation.h; path = YQJRFoundation/Classes/YQJRFoundation.h; sourceTree = "<group>"; };
 		88FAC23389BE4234FB36559483D7D891 /* YQJRDeviceInformationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRDeviceInformationHelper.h; path = YQJRFoundation/Classes/YQJRDeviceInformationHelper.h; sourceTree = "<group>"; };
-		8B59E5AFC00B0C3806522D96BFCD267D /* Pods-YQJRFoundation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQJRFoundation_Example-resources.sh"; sourceTree = "<group>"; };
 		8F44F625E5B6E85904FA4E64D310CDF5 /* NSDate+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YQJRCategory.m"; path = "YQJRFoundation/Classes/NSDate+YQJRCategory.m"; sourceTree = "<group>"; };
 		93EC2D3171C2518AE8AA517CFE9EFEA1 /* YQJRNetworkInformationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRNetworkInformationHelper.h; path = YQJRFoundation/Classes/YQJRNetworkInformationHelper.h; sourceTree = "<group>"; };
-		943F22D981923653E6E6C12C0341F053 /* SAMKeychain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DA0815BD7B58C25FF031430A716B914 /* YQJRFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQJRFoundation.debug.xcconfig; sourceTree = "<group>"; };
-		9E16665F8C9448277D8B3CF5B2ED0E20 /* Pods-YQJRFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0DB7690207BAE08CA56FD97F202210B /* NSUserDefaults+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+YQJRCategory.h"; path = "YQJRFoundation/Classes/NSUserDefaults+YQJRCategory.h"; sourceTree = "<group>"; };
-		A213E624B83AEE8A434100D432DB7232 /* Pods-YQJRFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A29CF38DD159960C68643FE9CE133694 /* NSDate+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YQJRCategory.h"; path = "YQJRFoundation/Classes/NSDate+YQJRCategory.h"; sourceTree = "<group>"; };
 		A2AE59A63809F0C4C21BDACF150E8C35 /* NSUserDefaults+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+YQJRCategory.m"; path = "YQJRFoundation/Classes/NSUserDefaults+YQJRCategory.m"; sourceTree = "<group>"; };
-		ACD90A2FD1F91AA8592A5874D4CEF795 /* SAMKeychain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.release.xcconfig; sourceTree = "<group>"; };
-		B1E251BF0E56F5967274AE7E6302919A /* Pods-YQJRFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQJRFoundation_Example-dummy.m"; sourceTree = "<group>"; };
+		AE6C63C335FB43C7C011C0C4CE1F06F6 /* Pods-YQJRFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQJRFoundation_Example-dummy.m"; sourceTree = "<group>"; };
 		BEC291CEE565240A2A368E8C0F092273 /* NSNotificationCenter+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+YQJRCategory.m"; path = "YQJRFoundation/Classes/NSNotificationCenter+YQJRCategory.m"; sourceTree = "<group>"; };
-		BF645488552F290CF61BD91CD484A77A /* Pods-YQJRFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQJRFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BFF31D3B623C13ECB1C1639D65170E95 /* Pods-YQJRFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQJRFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C36F9CC621A2E28B7B55F6F91454F61F /* NSArray+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+YQJRCategory.h"; path = "YQJRFoundation/Classes/NSArray+YQJRCategory.h"; sourceTree = "<group>"; };
 		C4660CAA0D78DAA631826E8B9875F8E0 /* YQJRFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQJRFoundation-dummy.m"; sourceTree = "<group>"; };
 		C9C04A20AA45FD93BE72CBEA6D9DB737 /* NSString+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YQJRCategory.h"; path = "YQJRFoundation/Classes/NSString+YQJRCategory.h"; sourceTree = "<group>"; };
 		D043A06C94C94E330C74BEBC334DF11E /* YQJRLocationInformationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YQJRLocationInformationHelper.m; path = YQJRFoundation/Classes/YQJRLocationInformationHelper.m; sourceTree = "<group>"; };
 		D26ECBBC79F054D32B6C6239EB700DE9 /* YQJRFoundationCommonMacroDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRFoundationCommonMacroDefinition.h; path = YQJRFoundation/Classes/YQJRFoundationCommonMacroDefinition.h; sourceTree = "<group>"; };
-		D2EFC63070637111B8F11A9090AB165C /* Pods-YQJRFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQJRFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0DBA0E4E267662A0E2FE3AE2CA0E136 /* NSArray+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+YQJRCategory.m"; path = "YQJRFoundation/Classes/NSArray+YQJRCategory.m"; sourceTree = "<group>"; };
-		E645475B25380A218E99FBDABC2E6160 /* Pods-YQJRFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQJRFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
 		E79BCECCCFCDF8FA9C3636244D9B35C7 /* YQJRFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YQJRFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E82543D6931E53C658E76F897836C8D0 /* Pods-YQJRFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQJRFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E8339CB5A3CD674882CF7CB0601B272F /* NSDictionary+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YQJRCategory.m"; path = "YQJRFoundation/Classes/NSDictionary+YQJRCategory.m"; sourceTree = "<group>"; };
 		EC611386CC28D53ACC3501A4AD78B901 /* libPods-YQJRFoundation_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YQJRFoundation_Example.a"; path = "libPods-YQJRFoundation_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5C81486EF01D2578FBDA7DC13BE924B /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
+		EF2DEFCD524A0B49467AE122EB5B6577 /* Pods-YQJRFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQJRFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FB0FB0D5B73A3DF5114D0BB5F8C657A9 /* libPods-YQJRFoundation_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YQJRFoundation_Tests.a"; path = "libPods-YQJRFoundation_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCD02A40B620932072F999659EE257BA /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		288DDDFBBD1C5D58D03A35984F1F9C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3022C2DBBC0D02ABBBEF7BBDC5F2FAD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,21 +112,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E8199C4D45F5F32BEE21C0A2026C534 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B932C29E1529FB1F39F725A0C61E78F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C64259458E3491090D4888B3D231E737 /* Frameworks */ = {
+		FD71E26A99F129FADF9E7FFBA4E11837 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,12 +154,13 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3C4DBC08AB87A716DF40C19A80BA7E95 /* Pods */ = {
+		298B981C621FB75C2E6B3C850C4DD43C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				886A444E6F0CE48026EA25A928813BE8 /* SAMKeychain */,
+				E896F885D38D2241810D4E0E95E78B8D /* Pods-YQJRFoundation_Example */,
+				8DC4C6155B26CAA707E35A170CAE32F4 /* Pods-YQJRFoundation_Tests */,
 			);
-			name = Pods;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		4755FC5D7C02F085B9A6336F7B88CBF2 /* Pod */ = {
@@ -221,77 +185,17 @@
 			path = "Example/Pods/Target Support Files/YQJRFoundation";
 			sourceTree = "<group>";
 		};
-		7472F98B8FD21B1B475F748106518BDA /* Pods-YQJRFoundation_Tests */ = {
+		8DC4C6155B26CAA707E35A170CAE32F4 /* Pods-YQJRFoundation_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				76D27490C4F7D40A8B4A0BC2BB09489D /* Pods-YQJRFoundation_Tests-acknowledgements.markdown */,
-				BF645488552F290CF61BD91CD484A77A /* Pods-YQJRFoundation_Tests-acknowledgements.plist */,
-				E645475B25380A218E99FBDABC2E6160 /* Pods-YQJRFoundation_Tests-dummy.m */,
-				9E16665F8C9448277D8B3CF5B2ED0E20 /* Pods-YQJRFoundation_Tests.debug.xcconfig */,
-				4D45A08B2032C864848DF9670E5B85F2 /* Pods-YQJRFoundation_Tests.release.xcconfig */,
+				E82543D6931E53C658E76F897836C8D0 /* Pods-YQJRFoundation_Tests-acknowledgements.markdown */,
+				7AD8AD50A66910B66EE9AC5B0C91DA0E /* Pods-YQJRFoundation_Tests-acknowledgements.plist */,
+				529260094DA2195AD1E9524B1C532B2A /* Pods-YQJRFoundation_Tests-dummy.m */,
+				2E8BD88E485C6FBA01B446303D72D58F /* Pods-YQJRFoundation_Tests.debug.xcconfig */,
+				26CB4A40C5D1B2DE953AA90E207A17AE /* Pods-YQJRFoundation_Tests.release.xcconfig */,
 			);
 			name = "Pods-YQJRFoundation_Tests";
 			path = "Target Support Files/Pods-YQJRFoundation_Tests";
-			sourceTree = "<group>";
-		};
-		76979025AAC6370DDD19603BCC35AD56 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B57327A97204D166005A4DA6ADAF224B /* Pods-YQJRFoundation_Example */,
-				7472F98B8FD21B1B475F748106518BDA /* Pods-YQJRFoundation_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8456E11434511416C24F4912AF93E3F3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EC611386CC28D53ACC3501A4AD78B901 /* libPods-YQJRFoundation_Example.a */,
-				FB0FB0D5B73A3DF5114D0BB5F8C657A9 /* libPods-YQJRFoundation_Tests.a */,
-				612028EAFF1C2054A0EB821A9C9F2440 /* libSAMKeychain.a */,
-				3C58B8A18819E11D2514E673F8878E0C /* libYQJRFoundation.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		886A444E6F0CE48026EA25A928813BE8 /* SAMKeychain */ = {
-			isa = PBXGroup;
-			children = (
-				4D0C838BF7FFE9B28014E5EE4142E609 /* SAMKeychain.h */,
-				2B75F775CD70DBF511572728D29996F3 /* SAMKeychain.m */,
-				FCD02A40B620932072F999659EE257BA /* SAMKeychainQuery.h */,
-				80218D56AAB6022528FD1B6D328861B6 /* SAMKeychainQuery.m */,
-				DD4E91D71F452D5018176CD5CBA552D6 /* Resources */,
-				A581D909F915DD8D7299EE1DA7ECAB24 /* Support Files */,
-			);
-			name = SAMKeychain;
-			path = SAMKeychain;
-			sourceTree = "<group>";
-		};
-		A581D909F915DD8D7299EE1DA7ECAB24 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				390FBB156C972B687BA4245F0CEC0D77 /* SAMKeychain-dummy.m */,
-				758213D91DA13B3F017AB457E4AD2EB8 /* SAMKeychain-prefix.pch */,
-				943F22D981923653E6E6C12C0341F053 /* SAMKeychain.debug.xcconfig */,
-				ACD90A2FD1F91AA8592A5874D4CEF795 /* SAMKeychain.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SAMKeychain";
-			sourceTree = "<group>";
-		};
-		B57327A97204D166005A4DA6ADAF224B /* Pods-YQJRFoundation_Example */ = {
-			isa = PBXGroup;
-			children = (
-				D2EFC63070637111B8F11A9090AB165C /* Pods-YQJRFoundation_Example-acknowledgements.markdown */,
-				BFF31D3B623C13ECB1C1639D65170E95 /* Pods-YQJRFoundation_Example-acknowledgements.plist */,
-				B1E251BF0E56F5967274AE7E6302919A /* Pods-YQJRFoundation_Example-dummy.m */,
-				8B59E5AFC00B0C3806522D96BFCD267D /* Pods-YQJRFoundation_Example-resources.sh */,
-				A213E624B83AEE8A434100D432DB7232 /* Pods-YQJRFoundation_Example.debug.xcconfig */,
-				2DDC87F20E864EB9D9A2DAF9E2C605B3 /* Pods-YQJRFoundation_Example.release.xcconfig */,
-			);
-			name = "Pods-YQJRFoundation_Example";
-			path = "Target Support Files/Pods-YQJRFoundation_Example";
 			sourceTree = "<group>";
 		};
 		C4E4AC3CE172F55B486BDE5F7AD98ABF /* Development Pods */ = {
@@ -308,9 +212,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C4E4AC3CE172F55B486BDE5F7AD98ABF /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				3C4DBC08AB87A716DF40C19A80BA7E95 /* Pods */,
-				8456E11434511416C24F4912AF93E3F3 /* Products */,
-				76979025AAC6370DDD19603BCC35AD56 /* Targets Support Files */,
+				DEFB6FDE0840F5E10EDA0E62DD55CE24 /* Products */,
+				298B981C621FB75C2E6B3C850C4DD43C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -321,12 +224,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DD4E91D71F452D5018176CD5CBA552D6 /* Resources */ = {
+		DEFB6FDE0840F5E10EDA0E62DD55CE24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5C81486EF01D2578FBDA7DC13BE924B /* SAMKeychain.bundle */,
+				EC611386CC28D53ACC3501A4AD78B901 /* libPods-YQJRFoundation_Example.a */,
+				FB0FB0D5B73A3DF5114D0BB5F8C657A9 /* libPods-YQJRFoundation_Tests.a */,
+				3C58B8A18819E11D2514E673F8878E0C /* libYQJRFoundation.a */,
 			);
-			name = Resources;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E896F885D38D2241810D4E0E95E78B8D /* Pods-YQJRFoundation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EF2DEFCD524A0B49467AE122EB5B6577 /* Pods-YQJRFoundation_Example-acknowledgements.markdown */,
+				74F24D668CFCCC0BA8518B350EFBCD7D /* Pods-YQJRFoundation_Example-acknowledgements.plist */,
+				AE6C63C335FB43C7C011C0C4CE1F06F6 /* Pods-YQJRFoundation_Example-dummy.m */,
+				012ECB9B9FE040DA1097E785805AB7F1 /* Pods-YQJRFoundation_Example.debug.xcconfig */,
+				30A7C977410292C1171EDCC53678EF48 /* Pods-YQJRFoundation_Example.release.xcconfig */,
+			);
+			name = "Pods-YQJRFoundation_Example";
+			path = "Target Support Files/Pods-YQJRFoundation_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,38 +257,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EC61C9FC145AE8E2FA6164866D6DA8C /* Headers */ = {
+		36BFA40A83F7257FD6F6CDCF20F85256 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DB4153074AE326714B8893C07AD8995 /* NSArray+YQJRCategory.h in Headers */,
-				45728F7A8765B406903AEAE197E4ECD3 /* NSDate+YQJRCategory.h in Headers */,
-				E2A1FC8DE1540BD9C3507D62369CDD99 /* NSDictionary+YQJRCategory.h in Headers */,
-				669F2D5DA26CADB0E1433B5C2CBFC3C4 /* NSNotificationCenter+YQJRCategory.h in Headers */,
-				47339463A857712EB672738CA31CA49D /* NSString+YQJRCategory.h in Headers */,
-				31B1058D1CFAD6A357CB762B0B6EA3A3 /* NSUserDefaults+YQJRCategory.h in Headers */,
-				C94D0B955D66832F2324EAB768BA5FA2 /* YQJRAPPInformationHelper.h in Headers */,
-				CBC9B644392BD7C2BCAD57C012096D4C /* YQJRDeviceInformationHelper.h in Headers */,
-				FFDB2EE0487EF0B85A75CEE1FFBB870A /* YQJRFoundation.h in Headers */,
-				E8B1ED6CF1CA2E2D7D0BB781F5C5DE41 /* YQJRFoundationCommonMacroDefinition.h in Headers */,
-				D13F1A7099F4CA4E1B7A0DF48F5C17DA /* YQJRLocationInformationHelper.h in Headers */,
-				9BF8C9EF917C5915799C15C11C37E935 /* YQJRNetworkInformationHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F46B5EAF7354D7D83FA4ECD7DDF8B78 /* Headers */ = {
+		9435D9E3E603D85AF2DDA9F07BF9DB7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BF4D9DCF2C605B882B70DA9ED9C7BE0 /* SAMKeychain.h in Headers */,
-				A02282564A2A10159E47D9AC3798A281 /* SAMKeychainQuery.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		766D405902976AA3457A045A83F93E25 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9EF68FBDF621DD78678D2EB7BF68FD97 /* NSArray+YQJRCategory.h in Headers */,
+				14191CCDFFE8D5B6465CB2D0F90AD39C /* NSDate+YQJRCategory.h in Headers */,
+				3D3B6705B0C157D055901BA8FE948B7C /* NSDictionary+YQJRCategory.h in Headers */,
+				960A6C46BA76BDBCA654EBE2D7891CA5 /* NSNotificationCenter+YQJRCategory.h in Headers */,
+				E0615C34F00DE772574B00B05FAC3EE2 /* NSString+YQJRCategory.h in Headers */,
+				6C104EE4C6FA5036373E8F4CB67BD224 /* NSUserDefaults+YQJRCategory.h in Headers */,
+				AF9702F6943DBF49EE0546DCE21574D1 /* YQJRAPPInformationHelper.h in Headers */,
+				8522F190F82627925EB02CAA3DFA7F2E /* YQJRDeviceInformationHelper.h in Headers */,
+				63E92A203173464E762C6D6577703631 /* YQJRFoundation.h in Headers */,
+				7E97F4D52BB7084506DA5274DB01ECE4 /* YQJRFoundationCommonMacroDefinition.h in Headers */,
+				302A2C366D3B4208BEE7469C46A0384E /* YQJRLocationInformationHelper.h in Headers */,
+				518395CB0F0701EBF121DF1DA112EDDF /* YQJRNetworkInformationHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,16 +288,15 @@
 /* Begin PBXNativeTarget section */
 		24E9E70BA62375DDB876ACCD07A5BCF2 /* YQJRFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D89B49146EB9610FDEA3FC224B346EAA /* Build configuration list for PBXNativeTarget "YQJRFoundation" */;
+			buildConfigurationList = 98B8BB026F342A81A306241177021F62 /* Build configuration list for PBXNativeTarget "YQJRFoundation" */;
 			buildPhases = (
-				2EC61C9FC145AE8E2FA6164866D6DA8C /* Headers */,
-				2E6AF220FB9E30F69722B7D48DD5472D /* Sources */,
-				B932C29E1529FB1F39F725A0C61E78F0 /* Frameworks */,
+				9435D9E3E603D85AF2DDA9F07BF9DB7C /* Headers */,
+				76B540B6C71AD9FD9D943691F563FE4A /* Sources */,
+				FD71E26A99F129FADF9E7FFBA4E11837 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				52BF577668EE4123F8B683C41B06D99F /* PBXTargetDependency */,
 			);
 			name = YQJRFoundation;
 			productName = YQJRFoundation;
@@ -397,38 +305,20 @@
 		};
 		4FE6F330F16C961578309162EA357908 /* Pods-YQJRFoundation_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E983C522D9903061F5CEB236F0D2ECA /* Build configuration list for PBXNativeTarget "Pods-YQJRFoundation_Example" */;
+			buildConfigurationList = ACF4048C593FEB9A31970D9A297BBA15 /* Build configuration list for PBXNativeTarget "Pods-YQJRFoundation_Example" */;
 			buildPhases = (
-				766D405902976AA3457A045A83F93E25 /* Headers */,
-				934758EEDCDB939AB3AB83341A6C2BC6 /* Sources */,
-				9E8199C4D45F5F32BEE21C0A2026C534 /* Frameworks */,
+				36BFA40A83F7257FD6F6CDCF20F85256 /* Headers */,
+				9A1376940E20E91915254EA18C6ED031 /* Sources */,
+				288DDDFBBD1C5D58D03A35984F1F9C4F /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				968EE6632EEC3FA04E607F450083DBD6 /* PBXTargetDependency */,
-				66DCCD4D96106B88D65FA55D0D469136 /* PBXTargetDependency */,
+				502D29ECA5BB22F0DDC7C2831F667A71 /* PBXTargetDependency */,
 			);
 			name = "Pods-YQJRFoundation_Example";
 			productName = "Pods-YQJRFoundation_Example";
 			productReference = EC611386CC28D53ACC3501A4AD78B901 /* libPods-YQJRFoundation_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52E9588118811AB05EBECC8C49A3054C /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
-			buildPhases = (
-				5F46B5EAF7354D7D83FA4ECD7DDF8B78 /* Headers */,
-				4224D40B8A4B8FB2484C8CF93363C65C /* Sources */,
-				C64259458E3491090D4888B3D231E737 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SAMKeychain;
-			productName = SAMKeychain;
-			productReference = 612028EAFF1C2054A0EB821A9C9F2440 /* libSAMKeychain.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		B3F72A565FC08C27B9A61A595A7AE727 /* Pods-YQJRFoundation_Tests */ = {
@@ -467,47 +357,18 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8456E11434511416C24F4912AF93E3F3 /* Products */;
+			productRefGroup = DEFB6FDE0840F5E10EDA0E62DD55CE24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4FE6F330F16C961578309162EA357908 /* Pods-YQJRFoundation_Example */,
 				B3F72A565FC08C27B9A61A595A7AE727 /* Pods-YQJRFoundation_Tests */,
-				5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */,
 				24E9E70BA62375DDB876ACCD07A5BCF2 /* YQJRFoundation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2E6AF220FB9E30F69722B7D48DD5472D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D02E5F83881BEDD59B9F6F91AE6044D /* NSArray+YQJRCategory.m in Sources */,
-				BB1C00934A544AF304E97255CB90DC53 /* NSDate+YQJRCategory.m in Sources */,
-				4537DA3F3F75973B3AB394C2C4E87A17 /* NSDictionary+YQJRCategory.m in Sources */,
-				1A5784F67DC877D2B13323E4AAA975C3 /* NSNotificationCenter+YQJRCategory.m in Sources */,
-				25BEC5C3B26D96D71350D5D2E6682EF1 /* NSString+YQJRCategory.m in Sources */,
-				26B3540324B6421A70873EF36679A788 /* NSUserDefaults+YQJRCategory.m in Sources */,
-				5EC5D924F6491DD954CFFCA2C626BE75 /* YQJRAPPInformationHelper.m in Sources */,
-				8B59C68AEB20E95F7A7B8E54E14D0D44 /* YQJRDeviceInformationHelper.m in Sources */,
-				9D229DC060AAB653C6235F5A20F70D76 /* YQJRFoundation-dummy.m in Sources */,
-				AD9C1C6A37D86A814F89DB59B35765AB /* YQJRLocationInformationHelper.m in Sources */,
-				F3F3BC1A73C95533C23662E852B9676F /* YQJRNetworkInformationHelper.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4224D40B8A4B8FB2484C8CF93363C65C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F4CC2D7D779CDAF51E0F212F6EB02CC /* SAMKeychain-dummy.m in Sources */,
-				EE699D5C5B11847A8803192E5EFB8C81 /* SAMKeychain.m in Sources */,
-				744246E6F5F15981E85D0A41A293395F /* SAMKeychainQuery.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		717B2119C99AAAB8376A9C570E206764 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -516,11 +377,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		934758EEDCDB939AB3AB83341A6C2BC6 /* Sources */ = {
+		76B540B6C71AD9FD9D943691F563FE4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7E00224414C8B15D5B4947AE2A35DFE /* Pods-YQJRFoundation_Example-dummy.m in Sources */,
+				E3F95C875521B64E3EB09C99BBA8568E /* NSArray+YQJRCategory.m in Sources */,
+				7A8B6C4EAF1F720BE5F708F5CD821E1D /* NSDate+YQJRCategory.m in Sources */,
+				4C463C1120B0B631644D5AFAB18AB149 /* NSDictionary+YQJRCategory.m in Sources */,
+				107C391CF4D189C09621ADF24019A643 /* NSNotificationCenter+YQJRCategory.m in Sources */,
+				F2B996E7228DA8759AE0FE591BD47BCA /* NSString+YQJRCategory.m in Sources */,
+				55FB30543EDD80007F73990C1CE74ABB /* NSUserDefaults+YQJRCategory.m in Sources */,
+				72FA1E7A978A497E1A0EBC3F5F9E4F88 /* YQJRAPPInformationHelper.m in Sources */,
+				413185A5D8254BBD142E9171AEE6F1F9 /* YQJRDeviceInformationHelper.m in Sources */,
+				20C3BE7D6BC568D69F3D70995FC7551D /* YQJRFoundation-dummy.m in Sources */,
+				3B766E7BCDF2B0734807D4452B4ECE31 /* YQJRLocationInformationHelper.m in Sources */,
+				BB7CB343E05B8C1E88AAEBD59A65790E /* YQJRNetworkInformationHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1376940E20E91915254EA18C6ED031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E56BA77BD997A517F911814E12A6240 /* Pods-YQJRFoundation_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,28 +412,16 @@
 			target = 4FE6F330F16C961578309162EA357908 /* Pods-YQJRFoundation_Example */;
 			targetProxy = 595DE5D79D7B7D4BAEFBFC5E7D39A76C /* PBXContainerItemProxy */;
 		};
-		52BF577668EE4123F8B683C41B06D99F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAMKeychain;
-			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
-			targetProxy = F901E8C60165831068EF178748AB36F0 /* PBXContainerItemProxy */;
-		};
-		66DCCD4D96106B88D65FA55D0D469136 /* PBXTargetDependency */ = {
+		502D29ECA5BB22F0DDC7C2831F667A71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YQJRFoundation;
 			target = 24E9E70BA62375DDB876ACCD07A5BCF2 /* YQJRFoundation */;
-			targetProxy = 7638E5F5DFCDBB87B990176FDFB37FAC /* PBXContainerItemProxy */;
-		};
-		968EE6632EEC3FA04E607F450083DBD6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAMKeychain;
-			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
-			targetProxy = A4447FE9FEA4CE34ED9E0252C0ECECBE /* PBXContainerItemProxy */;
+			targetProxy = 8507DCB9BB2EA582D519C2E8EFA510D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0575B2F57F7C7C4096A352853E10BA11 /* Debug */ = {
+		3E90B3D4DC09FAECF2320884E4EE0584 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DA0815BD7B58C25FF031430A716B914 /* YQJRFoundation.debug.xcconfig */;
 			buildSettings = {
@@ -577,52 +444,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		079E7EC3A40120CC435DC7B831DEA54A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A213E624B83AEE8A434100D432DB7232 /* Pods-YQJRFoundation_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		15B5D0060BDF9B70F4C9799529BC7573 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACD90A2FD1F91AA8592A5874D4CEF795 /* SAMKeychain.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SAMKeychain;
-				PRODUCT_NAME = SAMKeychain;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -684,31 +505,28 @@
 			};
 			name = Release;
 		};
-		616602B6A6CD1EF7932046F79342C0E4 /* Debug */ = {
+		50ED833E9CC4DB6B9981A1FFC70CC12A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 943F22D981923653E6E6C12C0341F053 /* SAMKeychain.debug.xcconfig */;
+			baseConfigurationReference = 012ECB9B9FE040DA1097E785805AB7F1 /* Pods-YQJRFoundation_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SAMKeychain;
-				PRODUCT_NAME = SAMKeychain;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		79467829DF91BE492422F30018F9D48A /* Release */ = {
+		697C34DA4149828AD3BF2BEC8810BF6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 317CF68407234336C4B47A7B26B4FE51 /* YQJRFoundation.release.xcconfig */;
 			buildSettings = {
@@ -735,7 +553,7 @@
 		};
 		7D38BAE5758DD1B7CA8E0E843DA54C2F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D45A08B2032C864848DF9670E5B85F2 /* Pods-YQJRFoundation_Tests.release.xcconfig */;
+			baseConfigurationReference = 26CB4A40C5D1B2DE953AA90E207A17AE /* Pods-YQJRFoundation_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -821,7 +639,7 @@
 		};
 		9C0FB6E6D6B3A57B1EB71786E6B1443D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E16665F8C9448277D8B3CF5B2ED0E20 /* Pods-YQJRFoundation_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2E8BD88E485C6FBA01B446303D72D58F /* Pods-YQJRFoundation_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -840,9 +658,9 @@
 			};
 			name = Debug;
 		};
-		A26F4CAF01149AA13BFEB723C86D26CE /* Release */ = {
+		E78CBE5E9488AE9CB1AE34AEFB07368F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DDC87F20E864EB9D9A2DAF9E2C605B3 /* Pods-YQJRFoundation_Example.release.xcconfig */;
+			baseConfigurationReference = 30A7C977410292C1171EDCC53678EF48 /* Pods-YQJRFoundation_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -865,29 +683,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E983C522D9903061F5CEB236F0D2ECA /* Build configuration list for PBXNativeTarget "Pods-YQJRFoundation_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				079E7EC3A40120CC435DC7B831DEA54A /* Debug */,
-				A26F4CAF01149AA13BFEB723C86D26CE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52E9588118811AB05EBECC8C49A3054C /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				616602B6A6CD1EF7932046F79342C0E4 /* Debug */,
-				15B5D0060BDF9B70F4C9799529BC7573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -901,11 +701,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D89B49146EB9610FDEA3FC224B346EAA /* Build configuration list for PBXNativeTarget "YQJRFoundation" */ = {
+		98B8BB026F342A81A306241177021F62 /* Build configuration list for PBXNativeTarget "YQJRFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0575B2F57F7C7C4096A352853E10BA11 /* Debug */,
-				79467829DF91BE492422F30018F9D48A /* Release */,
+				3E90B3D4DC09FAECF2320884E4EE0584 /* Debug */,
+				697C34DA4149828AD3BF2BEC8810BF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF4048C593FEB9A31970D9A297BBA15 /* Build configuration list for PBXNativeTarget "Pods-YQJRFoundation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50ED833E9CC4DB6B9981A1FFC70CC12A /* Debug */,
+				E78CBE5E9488AE9CB1AE34AEFB07368F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

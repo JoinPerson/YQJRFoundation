@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'YQJRFoundation'
-    s.version      = '0.0.7'
+    s.version      = '0.0.8'
     s.summary      = '类似于iOS系统的Foundation库'
     s.homepage     = 'https://github.com/JoinPerson/YQJRFoundation'
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -9,6 +9,5 @@ Pod::Spec.new do |s|
     s.source       = {:git => 'https://github.com/JoinPerson/YQJRFoundation.git', :tag => s.version}
     s.source_files = 'YQJRFoundation/Classes/*.{h,m}'
     s.public_header_files = 'YQJRFoundation/Classes/*.h'
-    s.dependency 'SAMKeychain', '1.5.3'
     s.libraries = 'resolv'
 end

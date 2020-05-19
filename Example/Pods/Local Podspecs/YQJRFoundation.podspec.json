@@ -1,6 +1,6 @@
 {
   "name": "YQJRFoundation",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "summary": "类似于iOS系统的Foundation库",
   "homepage": "https://github.com/JoinPerson/YQJRFoundation",
   "license": {
@@ -15,14 +15,9 @@
   },
   "source": {
     "git": "https://github.com/JoinPerson/YQJRFoundation.git",
-    "tag": "0.0.7"
+    "tag": "0.0.8"
   },
   "source_files": "YQJRFoundation/Classes/*.{h,m}",
   "public_header_files": "YQJRFoundation/Classes/*.h",
-  "dependencies": {
-    "SAMKeychain": [
-      "1.5.3"
-    ]
-  },
   "libraries": "resolv"
 }

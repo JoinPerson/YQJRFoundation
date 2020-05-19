@@ -9,7 +9,6 @@
 #import <CommonCrypto/CommonCrypto.h>
 #import "YQJRDeviceInformationHelper.h"
 #import "YQJRAPPInformationHelper.h"
-#import <SAMKeychain/SAMKeychain.h>
 #import <AdSupport/AdSupport.h>
 
 @implementation NSString (YQJRCategory)
