@@ -98,9 +98,12 @@
     return [NSString stringWithCString:systemInfo.machine encoding:NSUTF8StringEncoding];
 }
 
-+ (NSString *)deviceCustomName {
++ (NSString *)deviceCustomNamePercentEncoding:(BOOL)percentEncoding {
     NSString *name = [[UIDevice currentDevice] name];
     name = name ? : @"";
+    if (percentEncoding) {
+        name = [name stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+    }
     return name;
 }
 

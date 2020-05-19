@@ -84,6 +84,9 @@
  
  @return 返回结果
  */
-+ (NSString *)deviceCustomName;
+
+/// 获取设备自定义名称(eg:My iPhone)
+/// @param percentEncoding 是否百分号转义
++ (NSString *)deviceCustomNamePercentEncoding:(BOOL)percentEncoding;
 
 @end
