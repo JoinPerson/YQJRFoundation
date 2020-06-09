@@ -45,6 +45,14 @@
  */
 + (NSString *)yqjr_uuid;
 
+/// 传入一个字符串返回一个对应的数字
+/// @param str 传入的字符串
+/// @param accurate 精确到小数点的位数
+/// @param amountLength 返回对应的数字的最大长度
++ (NSString *)yqjr_returnNormalAmountWithStr:(NSString *)str
+                                    accurate:(NSUInteger)accurate
+                                amountLength:(NSUInteger)amountLength;
+
 #pragma mark - 散列函数
 /**
  *  计算MD5散列结果

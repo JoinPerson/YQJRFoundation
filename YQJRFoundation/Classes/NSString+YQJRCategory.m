@@ -47,6 +47,40 @@
     return result;
 }
 
++ (NSString *)yqjr_returnNormalAmountWithStr:(NSString *)str
+                                    accurate:(NSUInteger)accurate
+                                amountLength:(NSUInteger)amountLength {
+    if (str.length > 0 && str.length <= amountLength) {
+        NSScanner *scan = [NSScanner scannerWithString:str];
+        double val = 0;
+        BOOL result = [scan scanDouble:&val] && [scan isAtEnd];
+        //是一个正常的double类型的金额
+        if (result) {
+            if ([str rangeOfString:@"."].location != NSNotFound) {
+                //有小数点的情况下
+                NSRange range = [str rangeOfString:@"."];
+                if (range.location + 1 + accurate >= str.length) {
+                    return str;
+                } else {
+                    return [str substringWithRange:NSMakeRange(0, range.location + 1 + accurate)];
+                }
+            } else {
+                //没有小数点的情况下
+                return [NSNumber numberWithDouble:val].stringValue;
+            }
+        } else {
+            //不是一个正常的double类型的金额
+            NSString *tempStr = [str substringWithRange:NSMakeRange(0, str.length - 1)];
+            return [self yqjr_returnNormalAmountWithStr:tempStr accurate:accurate amountLength:amountLength];
+        }
+    } else if (str.length > amountLength) {
+        NSString *tempStr = [str substringWithRange:NSMakeRange(0, amountLength)];
+        return [self yqjr_returnNormalAmountWithStr:tempStr accurate:accurate amountLength:amountLength];
+    } else {
+        return nil;
+    }
+}
+
 #pragma mark - 散列函数
 - (NSString *)yqjr_md5String {
     const char *str = self.UTF8String;
