@@ -53,6 +53,9 @@
                                     accurate:(NSUInteger)accurate
                                 amountLength:(NSUInteger)amountLength;
 
+/// 过滤 Emoji 表情符号
+- (NSString *)yqjr_filterEmoji;
+
 #pragma mark - 散列函数
 /**
  *  计算MD5散列结果

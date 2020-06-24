@@ -81,6 +81,12 @@
     }
 }
 
+- (NSString *)yqjr_filterEmoji {
+    NSRegularExpression *expression = [NSRegularExpression regularExpressionWithPattern:@"[^\\u0020-\\u007E\\u00A0-\\u00BE\\u2E80-\\uA4CF\\uF900-\\uFAFF\\uFE30-\\uFE4F\\uFF00-\\uFFEF\\u2000-\\u201f\r\n]" options:NSRegularExpressionCaseInsensitive error:nil];
+    NSString *result = [expression stringByReplacingMatchesInString:self options:0 range:NSMakeRange(0, self.length) withTemplate:@""];
+    return result;
+}
+
 #pragma mark - 散列函数
 - (NSString *)yqjr_md5String {
     const char *str = self.UTF8String;
