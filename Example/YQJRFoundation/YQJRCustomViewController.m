@@ -11,9 +11,7 @@
 
 @interface YQJRCustomViewController ()
 
-@property(nonatomic, assign)NSInteger count;
-
-@property(nonatomic, copy)void(^action)(void);
+@property(nonatomic, strong)NSTimer *timer;
 
 @end
 
@@ -22,21 +20,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.count = 1;
     
-    WeakObj(self)
-    self.action = ^{
-        StrongObj(self)
-        NSLog(@"%@", @(self.count));
-    };
+    self.timer = [YQJRWeakTimerTool timerWithTimeInterval:5.0f target:self selector:@selector(action:) userInfo:@{@"name":@"wangzhen"} repeats:YES];
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    self.action();
+- (void)action:(NSDictionary *)userInfo {
+    NSLog(@"%@", userInfo);
 }
 
 - (void)dealloc {
-    NSLog(@"%@,%s",self,__func__);
+    [self.timer invalidate];
+    NSLog(@"%@,%s", self, __func__);
 }
 
 @end

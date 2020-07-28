@@ -19,5 +19,6 @@
 #import "YQJRFoundationCommonMacroDefinition.h"
 #import "YQJRLocationInformationHelper.h"
 #import "YQJRNetworkInformationHelper.h"
+#import "YQJRWeakTimerTool.h"
 
 #endif /* YQJRFoundation_h */
