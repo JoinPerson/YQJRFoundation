@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'YQJRFoundation'
-    s.version      = '0.0.12'
+    s.version      = '0.0.13'
     s.summary      = '类似于iOS系统的Foundation库'
     s.homepage     = 'https://github.com/JoinPerson/YQJRFoundation'
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
