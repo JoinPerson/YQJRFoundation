@@ -10,6 +10,17 @@
 @implementation NSArray (YQJRCategory)
 
 - (NSString *)yqjr_safeStringIndex:(NSInteger)index {
+    id result = [self yqjr_safeObjectIndex:index];
+    if ([result isKindOfClass:NSNumber.class]) {
+        return [NSString stringWithFormat:@"%@", result];
+    }
+    if ([result isKindOfClass:NSString.class]) {
+        return result;
+    }
+    return @"";
+}
+
+- (id)yqjr_safeObjectIndex:(NSInteger)index {
     if (![self isKindOfClass:NSArray.class]) {
         return @"";
     }
@@ -20,13 +31,7 @@
         return @"";
     }
     id result = [self objectAtIndex:index];
-    if ([result isKindOfClass:NSNumber.class]) {
-        return [NSString stringWithFormat:@"%@", result];
-    }
-    if ([result isKindOfClass:NSString.class]) {
-        return result;
-    }
-    return @"";
+    return result;
 }
 
 @end

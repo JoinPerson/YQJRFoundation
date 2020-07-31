@@ -13,4 +13,8 @@
 /// @param index 索引
 - (NSString *)yqjr_safeStringIndex:(NSInteger)index;
 
+/// 从数组中根据索引，安全获取对象
+/// @param index 索引
+- (id)yqjr_safeObjectIndex:(NSInteger)index;
+
 @end
