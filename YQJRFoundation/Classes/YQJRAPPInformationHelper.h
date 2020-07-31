@@ -22,4 +22,7 @@ app版本(eg:1.0)
 /// APP的名称
 + (NSString *)appName;
 
+/// 是否xcode调试
++ (BOOL)isXcodeBeingDebugged;
+
 @end
