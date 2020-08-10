@@ -40,12 +40,4 @@
     return @[];
 }
 
-- (void)yqjr_safeSetValue:(id)value forKey:(NSString *)forKey {
-    if ([forKey isKindOfClass:NSString.class]) {
-        if (value != nil) {
-            [self setValue:value forKey:forKey];
-        }
-    }
-}
-
 @end

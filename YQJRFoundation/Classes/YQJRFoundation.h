@@ -11,6 +11,8 @@
 #import "NSArray+YQJRCategory.h"
 #import "NSDate+YQJRCategory.h"
 #import "NSDictionary+YQJRCategory.h"
+#import "NSMutableArray+YQJRCategory.h"
+#import "NSMutableDictionary+YQJRCategory.h"
 #import "NSNotificationCenter+YQJRCategory.h"
 #import "NSString+YQJRCategory.h"
 #import "NSUserDefaults+YQJRCategory.h"
