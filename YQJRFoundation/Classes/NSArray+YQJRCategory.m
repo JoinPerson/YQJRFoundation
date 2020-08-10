@@ -21,14 +21,8 @@
 }
 
 - (id)yqjr_safeObjectIndex:(NSInteger)index {
-    if (![self isKindOfClass:NSArray.class]) {
-        return @"";
-    }
-    if (index < 0) {
-        return @"";
-    }
-    if (index >= self.count) {
-        return @"";
+    if (index < 0 || index >= self.count) {
+        return nil;
     }
     id result = [self objectAtIndex:index];
     return result;
